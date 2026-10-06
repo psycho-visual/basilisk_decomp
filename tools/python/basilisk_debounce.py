@@ -7,6 +7,9 @@ Needs `pip install hidapi`. Quit Razer Synapse first.
   basilisk_debounce.py restore              back to the factory 8/28/8/28
   basilisk_debounce.py --list               list the mouse's HID interfaces (troubleshooting)
 
+On Windows, basilisk_debounce.exe (built by .github/workflows/basilisk-debounce-exe.yml) takes the same
+arguments and needs no Python install.
+
 Where the numbers come from (firmware/decompiled/BasiliskV3_FW_v1.02.00.c):
   4 bytes at 0x04000D68: press confirm, press lockout, release confirm, release lockout (ms).
   The lockouts are what FUN_2000b924 uses on the desk; values above 30 are treated as 28.
@@ -200,5 +203,17 @@ def main():
         dev.close()
 
 
+def double_clicked():
+    """The .exe started from Explorer: no arguments, and a console window of its own that closes on exit."""
+    return getattr(sys, 'frozen', False) and len(sys.argv) == 1 and sys.stdin is not None and sys.stdin.isatty()
+
+
 if __name__ == '__main__':
-    sys.exit(main())
+    rc = main()
+    if double_clicked():
+        print('\nTo change the lockout, open a terminal in this folder and run: basilisk_debounce.exe set --lockout 10')
+        try:
+            input('Press Enter to exit.')
+        except EOFError:
+            pass
+    sys.exit(rc)
