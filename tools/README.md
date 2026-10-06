@@ -13,6 +13,7 @@ Everything in the repository was produced by these scripts. `decompile.sh` runs 
 | `python/extract_range.py` | Cuts an address range of functions out of an `ExportDecomp` listing (`FWUpdaterDLL_razer.c`) |
 | `python/make_buildable.py` | Rewrites ILSpy `.csproj` files: project references between the decompiled assemblies, NuGet for log4net/Newtonsoft.Json, no machine paths |
 | `python/sigs.py` | Lists Authenticode signer CNs of PE files (needs `openssl`) |
+| `python/debounce_sim.py` | Cycle-level model of the firmware's click debounce (`FUN_2000b924` + `FUN_200054e0`). Sweeps click lengths or replays click sequences ([docs/click-debounce.md](../docs/click-debounce.md)) |
 | `python/xref.py` | Quick "which decompiled functions mention X" grep over a listing |
 | `dotnet/resdump` | Dumps a binary `.resources` file (`DeviceUpdater.resources`) to TSV + blobs |
 | `dotnet/asmres` | Extracts manifest resources from an assembly and explodes `.resources` (strings → TSV, images → PNG/ICO) |

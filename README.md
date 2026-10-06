@@ -9,7 +9,7 @@ mouse firmware image the updater flashes.
 
 | Path | Content | How |
 |---|---|---|
-| [`docs/`](docs) | Write-ups: [package](docs/package.md), [updater app](docs/updater-app.md), [native DLL](docs/native-dll.md), [**HID/DFU protocol**](docs/protocol.md), [**firmware**](docs/firmware.md) | manual analysis |
+| [`docs/`](docs) | Write-ups: [package](docs/package.md), [updater app](docs/updater-app.md), [native DLL](docs/native-dll.md), [**HID/DFU protocol**](docs/protocol.md), [**firmware**](docs/firmware.md), [**click debounce**](docs/click-debounce.md) | manual analysis |
 | [`dotnet/`](dotnet) | C# source of `CustomerFWU2Point5.exe` and the 5 Razer assemblies it ships with, as one solution that **compiles** (`dotnet build`) | ILSpy 9.1 + SmartAssembly string decoding |
 | [`native/FWUpdaterDLL/`](native/FWUpdaterDLL) | `FWUpdaterDLL_razer.c` (the 48 Razer-written functions, named) and `FWUpdaterDLL.dll.c` (all 10,691 functions incl. static MFC/CRT), plus types, symbols, strings | Ghidra 11.4.2 |
 | [`firmware/`](firmware) | Basilisk V3 application firmware **v1.02.00** as `.hex`/`.bin` (load address `0x20000000`), the recovered initial RAM image, and `decompiled/` (all 437 functions as C, with annotations) | Ghidra 11.4.2, ARM Cortex-M0+ Thumb |
@@ -39,6 +39,10 @@ mouse firmware image the updater flashes.
 * **Firmware internals**: `razer_cmd_dispatch` handles command classes 0x00, 0x02, 0x04, 0x05, 0x06, 0x0B, 0x0F and
   0xFE. Version `00/87` returns `1.02.00`. The USB descriptors were recovered from the compressed `.data` section.
   See [docs/firmware.md](docs/firmware.md).
+* **Click debounce**: every button has a 28 ms lockout after every reported edge, counted in 1 ms USB frames.
+  Clicks shorter than 28 ms are held 28 ms longer (29–55 ms), and longer clicks pass through unchanged. A short click
+  that follows within the lockout is dropped. The lockout is configurable with `02/02` / `02/82`. See
+  [docs/click-debounce.md](docs/click-debounce.md).
 * **Obfuscation**: three of the Synapse support libraries (AccountManagerClient/Common, ActionServiceCommon) are protected
   with SmartAssembly 6.11 string encoding. This was removed statically (`tools/dotnet/sastrings`) before
   decompiling, so the C# contains the real string literals.
