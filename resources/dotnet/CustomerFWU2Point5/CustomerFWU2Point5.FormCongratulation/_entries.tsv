@@ -1,0 +1,68 @@
+name	type	value
+$this.AutoScaleDimensions	System.Drawing.SizeF	<System.Drawing.SizeF 164 bytes -> $this.AutoScaleDimensions.serialized.bin>
+$this.BackgroundImageLayout	System.Windows.Forms.ImageLayout	<System.Windows.Forms.ImageLayout 171 bytes -> $this.BackgroundImageLayout.serialized.bin>
+$this.ClientSize	System.Drawing.Size	<System.Drawing.Size 163 bytes -> $this.ClientSize.serialized.bin>
+$this.Icon	System.Drawing.Icon	<System.Drawing.Icon -> $this.Icon.png>
+$this.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> $this.ImeMode.serialized.bin>
+$this.StartPosition	System.Windows.Forms.FormStartPosition	<System.Windows.Forms.FormStartPosition 177 bytes -> $this.StartPosition.serialized.bin>
+>>$this.Name	ResourceTypeCode.String	FormCongratulation
+>>$this.Type	ResourceTypeCode.String	System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>buttonClose.Name	ResourceTypeCode.String	buttonClose
+>>buttonClose.Parent	ResourceTypeCode.String	$this
+>>buttonClose.Type	ResourceTypeCode.String	CustomerFirmwareUpdater.MyButton, CustomerFWU2Point5, Version=1.0.2.20080, Culture=neutral, PublicKeyToken=null
+>>buttonClose.ZOrder	ResourceTypeCode.String	3
+>>label1.Name	ResourceTypeCode.String	label1
+>>label1.Parent	ResourceTypeCode.String	$this
+>>label1.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>label1.ZOrder	ResourceTypeCode.String	1
+>>labelCongratulation.Name	ResourceTypeCode.String	labelCongratulation
+>>labelCongratulation.Parent	ResourceTypeCode.String	$this
+>>labelCongratulation.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelCongratulation.ZOrder	ResourceTypeCode.String	2
+>>labelDevFWver.Name	ResourceTypeCode.String	labelDevFWver
+>>labelDevFWver.Parent	ResourceTypeCode.String	$this
+>>labelDevFWver.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelDevFWver.ZOrder	ResourceTypeCode.String	0
+>>labelHeader.Name	ResourceTypeCode.String	labelHeader
+>>labelHeader.Parent	ResourceTypeCode.String	$this
+>>labelHeader.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelHeader.ZOrder	ResourceTypeCode.String	4
+buttonClose.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> buttonClose.AutoSize.serialized.bin>
+buttonClose.BackgroundImageLayout	System.Windows.Forms.ImageLayout	<System.Windows.Forms.ImageLayout 171 bytes -> buttonClose.BackgroundImageLayout.serialized.bin>
+buttonClose.FlatStyle	System.Windows.Forms.FlatStyle	<System.Windows.Forms.FlatStyle 169 bytes -> buttonClose.FlatStyle.serialized.bin>
+buttonClose.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> buttonClose.Font.serialized.bin>
+buttonClose.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> buttonClose.ImeMode.serialized.bin>
+buttonClose.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> buttonClose.Location.serialized.bin>
+buttonClose.Margin	System.Windows.Forms.Padding	<System.Windows.Forms.Padding 211 bytes -> buttonClose.Margin.serialized.bin>
+buttonClose.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> buttonClose.Size.serialized.bin>
+buttonClose.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> buttonClose.TabIndex.serialized.bin>
+buttonClose.Text	ResourceTypeCode.String	CLOSE
+label1.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> label1.Font.serialized.bin>
+label1.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> label1.ImeMode.serialized.bin>
+label1.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> label1.Location.serialized.bin>
+label1.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> label1.Size.serialized.bin>
+label1.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> label1.TabIndex.serialized.bin>
+label1.Text	ResourceTypeCode.String	Your device has been updated to the latest firmware.
+label1.TextAlign	System.Drawing.ContentAlignment	<System.Drawing.ContentAlignment 164 bytes -> label1.TextAlign.serialized.bin>
+labelCongratulation.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelCongratulation.Font.serialized.bin>
+labelCongratulation.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelCongratulation.ImeMode.serialized.bin>
+labelCongratulation.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelCongratulation.Location.serialized.bin>
+labelCongratulation.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelCongratulation.Size.serialized.bin>
+labelCongratulation.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelCongratulation.TabIndex.serialized.bin>
+labelCongratulation.Text	ResourceTypeCode.String	CONGRATULATIONS!
+labelCongratulation.TextAlign	System.Drawing.ContentAlignment	<System.Drawing.ContentAlignment 164 bytes -> labelCongratulation.TextAlign.serialized.bin>
+labelDevFWver.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelDevFWver.AutoSize.serialized.bin>
+labelDevFWver.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelDevFWver.Font.serialized.bin>
+labelDevFWver.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelDevFWver.ImeMode.serialized.bin>
+labelDevFWver.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelDevFWver.Location.serialized.bin>
+labelDevFWver.Margin	System.Windows.Forms.Padding	<System.Windows.Forms.Padding 211 bytes -> labelDevFWver.Margin.serialized.bin>
+labelDevFWver.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelDevFWver.Size.serialized.bin>
+labelDevFWver.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelDevFWver.TabIndex.serialized.bin>
+labelDevFWver.Text	ResourceTypeCode.String	Device Version:
+labelHeader.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelHeader.AutoSize.serialized.bin>
+labelHeader.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelHeader.Font.serialized.bin>
+labelHeader.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelHeader.ImeMode.serialized.bin>
+labelHeader.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelHeader.Location.serialized.bin>
+labelHeader.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelHeader.Size.serialized.bin>
+labelHeader.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelHeader.TabIndex.serialized.bin>
+labelHeader.Text	ResourceTypeCode.String	RAZER MANO'WAR FIRMWARE UPDATER

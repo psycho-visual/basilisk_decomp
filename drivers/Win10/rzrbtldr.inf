@@ -1,0 +1,105 @@
+; Copyright: (c) 2013 Razer Inc. All rights reserved
+
+[Version]
+Signature = "$Windows NT$"
+Class = USB
+ClassGuid={36FC9E60-C465-11CF-8056-444553540000} 
+Provider = %ProviderName%
+DriverVer=05/04/2016,6.2.9200.16385
+CatalogFile.NTx86 = rzrbtldr.cat
+CatalogFile.NTAMD64 = rzrbtldr_64.cat
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%ProviderName% = MyDevice_WinUSB,NTx86,NTamd64
+[MyDevice_WinUSB.NTx86]
+%USB\MyDevice.DeviceDesc% =USB_Install, USB\VID_1532&PID_110D
+
+[MyDevice_WinUSB.NTamd64]
+%USB\MyDevice.DeviceDesc% =USB_Install, USB\VID_1532&PID_110D
+
+; =================== Installation ===================
+
+[ClassInstall32]
+AddReg=RzrBtLdr_RegistryAdd
+
+[RzrBtLdr_RegistryAdd]
+HKR,,,,%ClassName%
+
+;[1]
+[USB_Install]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+;[2]
+[USB_Install.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+;[3]
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+;[4]
+[USB_Install.Wdf]
+KmdfService=WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion=1.9
+
+;[5]
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{C9348766-D27C-41ee-B2BE-EA9412F72B52}"
+;; FILE_DEVICE_SECURE                         
+HKR,,DeviceCharacteristics,0x10001,0x0100         ; Use same security checks on relative opens
+; SDDL_DEVOBJ_SYS_ALL_ADM_RWX_WORLD_RWX_RES_RWX
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)"
+
+;[6]
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+; ================= Source Media Section =====================
+;[7]
+
+[SourceDisksNames.x86]
+1 = %DISK_NAME%,,,
+
+[SourceDisksNames.amd64]
+2 = %DISK_NAME%,,,
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller.dll=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller.dll=2
+WdfCoInstaller01009.dll=2
+
+; =================== Strings ===================
+
+[Strings]
+ProviderName="Razer Inc."
+ClassName="Razer WinUSB"
+USB\MyDevice.DeviceDesc="Razer Bootloader"
+WinUSB_SvcDesc="Razer WinUSB"
+DISK_NAME="Razer WinUSB Driver"

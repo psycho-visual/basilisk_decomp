@@ -1,0 +1,84 @@
+name	type	value
+BLfailretry	ResourceTypeCode.String	Accès au mode chargeur de démarrage échoué. Veuillez redémarrer le système puis essayez à nouveau.
+Done	ResourceTypeCode.String	TERMINÉ
+NoPCPowerOff	ResourceTypeCode.String	N'éteignez pas votre système.
+NotNeedUpdateRequired	ResourceTypeCode.String	Aucune mise à jour du firmware requise
+Nounplug	ResourceTypeCode.String	Veuillez garder votre PC allumé et ne débranchez pas les périphériques
+RaijuNote	ResourceTypeCode.String	Assurez-vous que le câble USB NE soit PAS connecté à un autre système.
+Raionguidemessage	ResourceTypeCode.String	Cet utilitaire va mettre à jour le firmware de votre manette Razer Raion si nécessaire.
+Title	ResourceTypeCode.String	Programme de mise à jour de firmware RAZER {0}
+TitleBladeKB	ResourceTypeCode.String	PROGRAMME DE MISE À JOUR DU FIRMWARE DU CLAVIER RAZER {0}
+anupdaterequired	ResourceTypeCode.String	Une mise à jour est requise.
+atroxconncable	ResourceTypeCode.String	Connectez le câble amovible au contrôleur de stick arcade Razer Atrox.
+atroxnote	ResourceTypeCode.String	Assurez-vous que le stick arcade Atrox NE soit PAS connecté à un autre système.
+atroxplugin	ResourceTypeCode.String	Branchez le connecteur de votre stick arcade Razer Atrox au port USB de votre PC.
+atroxpressbtn	ResourceTypeCode.String	Maintenez enfoncés les boutons B et RB.
+back	ResourceTypeCode.String	RETOUR
+blade15c2message	ResourceTypeCode.String	Cet utilitaire va mettre à jour le firmware du clavier de votre Razer {0} (modèle {1}) si nécessaire.
+blade15mid2019message	ResourceTypeCode.String	Cet utilitaire va mettre à jour le firmware du clavier de votre Razer Blade 15 Mid 2019-Advanced (modèle RZ09-0301) si nécessaire.
+blade2020message	ResourceTypeCode.String	Cet utilitaire mettra à jour le firmware du clavier (si nécessaire) de votre :\r\n●    Razer {0} – modèle {1}
+bladedetect	ResourceTypeCode.String	Clavier Razer Blade détecté.
+bladekbdetect	ResourceTypeCode.String	Clavier Razer {0} détecté.
+bladekbnotdetect	ResourceTypeCode.String	Razer {0} non détecté.
+bladekbupdatefail	ResourceTypeCode.String	Échec de la mise à jour du micrologiciel du Razer {0}.\r\nVoulez-vous réessayer ?
+bladekbupdatetonewest	ResourceTypeCode.String	Installation du dernier firmware réussie pour le clavier de votre système.
+bladestealthdetect	ResourceTypeCode.String	Razer Blade Stealth keyboard detected.
+cancel	ResourceTypeCode.String	ANNULER
+checkverfail	ResourceTypeCode.String	Échec du téléchargement de la version du firmware. \r\nVeuillez cliquer sur Réessayer.
+close	ResourceTypeCode.String	FERMER
+closeallapp	ResourceTypeCode.String	Veuillez fermer toutes les autres applications avant de commencer la procédure de mise à jour.
+closesynapse	ResourceTypeCode.String	Fermer Synapse avant la mise à jour.
+closesynapseandotherapp	ResourceTypeCode.String	Nous ne pouvons pas procéder à la mise à jour car Synapse ou une autre application est encore en cours d'exécution.\r\n                                                     \r\nVeuillez vous assurer que Synapse et toutes les autres applications sont fermées avant de relancer la mise à jour.
+congratulations	ResourceTypeCode.String	FÉLICITATIONS !
+connbytypec	ResourceTypeCode.String	Connectez le Razer Raptor 27 au port USB-C de votre PC.
+conndetachablecable	ResourceTypeCode.String	Connectez le câble détachable au contrôleur de gamepad Razer Pantera.
+connectmouse	ResourceTypeCode.String	Pendant la mise à jour du firmware, la souris sera inutilisable. Pour conserver le contrôle de votre système, il est recommandé de connecter une deuxième souris avant de démarrer la mise à jour.
+connectpoweroutlet	ResourceTypeCode.String	Vérifiez que votre ordinateur portable est branché à une prise électrique.
+devhavelatestfw	ResourceTypeCode.String	Vous avez déjà le dernier micrologiciel.
+devicever	ResourceTypeCode.String	Version de l’appareil :
+devicewithnewver	ResourceTypeCode.String	Installation du dernier firmware disponible réussie.
+docknoupdate	ResourceTypeCode.String	Aucune mise à jour du firmware requise
+enterbootloadering	ResourceTypeCode.String	Initialisation. Veuillez patienter...
+eraseflash	ResourceTypeCode.String	Effacement de la mémoire Flash…
+exitsynapse	ResourceTypeCode.String	Veuillez fermer toutes les applications de Razer Central avant de continuer. Faites un clic droit sur l'icône Razer de la barre des tâches, puis choisissez « Quitter toutes les applications ».
+foundmodelnohere	ResourceTypeCode.String	Le numéro de modèle de votre produit (par exemple, {0}) se trouve généralement ici :
+guidemessage	ResourceTypeCode.String	Cet utilitaire va vérifier le firmware et mettre à jour votre Razer {0} si nécessaire.
+keepholdingprompt	ResourceTypeCode.String	Continuez à maintenir enfoncé le bouton marche/arrêt jusqu’à ce que la mise à jour soit terminée.
+laptoppower	ResourceTypeCode.String	Si vous utilisez un ordinateur portable, assurez-vous qu’il soit branché sur une prise électrique.
+lowbattery	ResourceTypeCode.String	Niveau de batterie faible. Veuillez brancher sur l’adaptateur secteur.
+newver	ResourceTypeCode.String	Dernière version :
+next	ResourceTypeCode.String	SUIVANT
+nodevdetect	ResourceTypeCode.String	Impossible de détecter le produit.
+noupdaterequired	ResourceTypeCode.String	Le dernier firmware disponible est déjà installé. Aucune mise à jour requise.
+pantheranote	ResourceTypeCode.String	Assurez-vous que le Panthera NE soit PAS connecté à un autre système.
+pantherapluginpc	ResourceTypeCode.String	Branchez le connecteur USB de votre Razer Pantera sur le port USB de votre PC.
+pantherapressbtn1	ResourceTypeCode.String	Maintenez 
+pantherapressbtn2	ResourceTypeCode.String	and R1 buttons.
+plugandholdpwrbtn	ResourceTypeCode.String	Maintenez enfoncé bouton marche/arrêt du haut-parleur, puis appuyez sur le bouton Mise à jour ci-dessous.
+pluginmousedock	ResourceTypeCode.String	Branchez votre Razer {0} à votre PC.
+pluginspeaker	ResourceTypeCode.String	Connectez le haut-parleur à votre PC à l'aide du câble USB.
+plugpoweroutletnote	ResourceTypeCode.String	Vérifiez que votre ordinateur portable est branché à une prise électrique.
+plugusbfiber	ResourceTypeCode.String	Branchez le connecteur micro USB du câble en fibre tressée amovible sur votre Razer {0}.
+plugusbtoPC	ResourceTypeCode.String	Branchez le connecteur USB de votre Razer {0} sur le port USB de votre PC.
+pressbtn	ResourceTypeCode.String	Maintenez  le bouton HAUT et le bouton d'action X enfoncés.
+pressbtnWolverine	ResourceTypeCode.String	Maintenez enfoncés la touche Haut du pavé directionnel et le bouton A.
+processfwdata	ResourceTypeCode.String	Traitement des données du firmware…
+reconnectdev	ResourceTypeCode.String	Veuillez rebrancher votre périphérique !
+reminder	ResourceTypeCode.String	RAPPEL
+showmodelno	ResourceTypeCode.String	Me montrer où trouver mon numéro de modèle Razer
+showmodelnoblade	ResourceTypeCode.String	Me montrer où trouver le numéro de mon modèle de Razer {0}
+shutdownrazerapps	ResourceTypeCode.String	Si vous continuez, nous arrêterons automatiquement les applications Razer.
+support	ResourceTypeCode.String	Si vous avez besoin d'une assistance supplémentaire, veuillez nous envoyer un e-mail à support@razerzone.com.
+switchtops4	ResourceTypeCode.String	Sélectionnez le mode PS4.
+tryagain	ResourceTypeCode.String	Veuillez suivre scrupuleusement les étapes puis réessayer.
+turnondev	ResourceTypeCode.String	Assurez-vous que votre Razer Raptor 27 est allumé.
+typecnote	ResourceTypeCode.String	Si votre PC ne dispose pas de port USB-C, vous aurez besoin d'un câble ou adaptateur USB-C vers USB-A avant de continuer.
+update	ResourceTypeCode.String	MISE À JOUR
+updatebladec3kbonly	ResourceTypeCode.String	Ce programme de mise à jour fonctionne uniquement avec le clavier Razer Blade 15 Mid 2019-Advanced (modèle RZ09-0301).
+updatebladekbonly	ResourceTypeCode.String	Le logiciel de mise à jour peut uniquement mettre à jour le clavier Razer {0}.
+updatefail	ResourceTypeCode.String	Échec de la mise à jour du firmware. \r\nVeuillez rebrancher votre périphérique puis cliquez sur Réessayer.
+updatefw	ResourceTypeCode.String	Mise à jour du firmware…
+updatestep	ResourceTypeCode.String	Connectez votre appareil à votre PC
+updatesuccessful	ResourceTypeCode.String	Mise à jour réussie !
+verifyfw	ResourceTypeCode.String	Vérification du firmware…
+welcomenote	ResourceTypeCode.String	Remarque :

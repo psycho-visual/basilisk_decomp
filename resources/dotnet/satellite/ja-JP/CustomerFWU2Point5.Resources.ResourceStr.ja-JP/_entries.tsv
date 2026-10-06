@@ -1,0 +1,84 @@
+name	type	value
+BLfailretry	ResourceTypeCode.String	ブートローダーモードの起動に失敗しました。システムを再起動して、再試行してください。
+Done	ResourceTypeCode.String	完了
+NoPCPowerOff	ResourceTypeCode.String	システムの電源を切らないでください。
+NotNeedUpdateRequired	ResourceTypeCode.String	アップデートは不要です
+Nounplug	ResourceTypeCode.String	お使いのコンピュータの電源を切ったり、デバイスを抜いたりしないでください。
+RaijuNote	ResourceTypeCode.String	USBケーブルがシステムに接続されていないことを確認してください。
+Raionguidemessage	ResourceTypeCode.String	このユーティリティは必要に応じて Razer Raion コントローラーのファームウェアをアップデートします。
+Title	ResourceTypeCode.String	RAZER {0} ファームウェアアップデータ
+TitleBladeKB	ResourceTypeCode.String	RAZER {0} キーボード ファームウェアアップデーター
+anupdaterequired	ResourceTypeCode.String	アップデートが必要です。
+atroxconncable	ResourceTypeCode.String	着脱可能なケーブルを Razer Atrox アーケードスティックコントローラーに接続します。
+atroxnote	ResourceTypeCode.String	Atrox アーケードスティックがどのシステムにも接続されていないことを確認してください。
+atroxplugin	ResourceTypeCode.String	Razer Atrox アーケードスティックのコネクターを、PC の USB ポートに差し込みます。
+atroxpressbtn	ResourceTypeCode.String	B ボタンと RB ボタンを長押しします。
+back	ResourceTypeCode.String	戻る
+blade15c2message	ResourceTypeCode.String	このアップデーターは Razer {0} キーボード (モデル {1}) のみをアップデートできます。
+blade15mid2019message	ResourceTypeCode.String	このアップデーターは Razer Blade 15 Mid 2019-Advanced キーボード (モデル RZ09-0301) のみをアップデートできます。
+blade2020message	ResourceTypeCode.String	このユーティリティは (必要に応じて) 次のキーボード ファームウェアを更新します\r\n●    Razer {0} – モデル {1}
+bladedetect	ResourceTypeCode.String	Razer Blade キーボードが検出されました。
+bladekbdetect	ResourceTypeCode.String	Razer {0} キーボードが検出されました。
+bladekbnotdetect	ResourceTypeCode.String	Razer {0} が検出されません。
+bladekbupdatefail	ResourceTypeCode.String	Razer {0} ファームウェアのアップデートに失敗しました。\r\n再試行しますか？
+bladekbupdatetonewest	ResourceTypeCode.String	お使いのシステムのキーボードの最新ファームウェアへのアップデートが完了しました。
+bladestealthdetect	ResourceTypeCode.String	Razer Blade Stealth キーボードが検出されました。
+cancel	ResourceTypeCode.String	キャンセル
+checkverfail	ResourceTypeCode.String	ファームウェアバージョンの取得に失敗しました。 \r\n［Retry］（再試行）をクリックしてください。
+close	ResourceTypeCode.String	閉じる
+closeallapp	ResourceTypeCode.String	更新を続けるには、他のすべてのアプリケーションも閉じてください。
+closesynapse	ResourceTypeCode.String	更新する前に Synapse を閉じます。
+closesynapseandotherapp	ResourceTypeCode.String	Synapse または一部の他のアプリケーションが実行中のため、アップデートを続行できません。\r\n                                                     \r\nアップデート再起動の前に、Synapse と他のすべてのアプリケーションが閉じていることを確認してください。
+congratulations	ResourceTypeCode.String	おめでとうございます！
+connbytypec	ResourceTypeCode.String	ご使用の PC の USB-C 端子に Razer Raptor 27 を接続します。
+conndetachablecable	ResourceTypeCode.String	Razer Panthera コントローラに着脱可能なケーブルを接続します。
+connectmouse	ResourceTypeCode.String	ファームウェアのアップデート中はマウスが反応しなくなります。 システムを操作し続ける為に、アップデートを開始する前に別のマウスを接続することをお勧めします。
+connectpoweroutlet	ResourceTypeCode.String	ノートパソコンが電源に接続されていることを確認してください。
+devhavelatestfw	ResourceTypeCode.String	すでに最新ファームウェアがインストールされています。
+devicever	ResourceTypeCode.String	デバイスバージョン:
+devicewithnewver	ResourceTypeCode.String	お使いのデバイスの最新ファームウェアへのアップデートが完了しました。
+docknoupdate	ResourceTypeCode.String	アップデートは不要です
+enterbootloadering	ResourceTypeCode.String	ブートローダーを起動しています。お待ちください...
+eraseflash	ResourceTypeCode.String	フラッシュメモリを消去しています･･･
+exitsynapse	ResourceTypeCode.String	続行する前に Razer Central ですべてのアプリケーションを閉じてください。システムトレイで Razer アイコンを右クリックし、[すべてのアプリを終了する] を選択します。
+foundmodelnohere	ResourceTypeCode.String	ご使用の製品のモデル番号 (例: {0}) は、こちらでご確認いただけます:
+guidemessage	ResourceTypeCode.String	このユーティリティは Razer {0} のファームウェアを確認し、必要に応じてアップデートします。
+keepholdingprompt	ResourceTypeCode.String	更新が終わるまで、電源ボタンを押し続けます。
+laptoppower	ResourceTypeCode.String	ノート PC をお使いの場合は、電源コンセントに差し込まれていることを確認してください。
+lowbattery	ResourceTypeCode.String	バッテリ残量が少なくなっています。電源アダプターに接続してください。
+newver	ResourceTypeCode.String	最新バージョン:
+next	ResourceTypeCode.String	次へ
+nodevdetect	ResourceTypeCode.String	製品を検出できません。
+noupdaterequired	ResourceTypeCode.String	お使いのファームウェアは最新のため、アップデートは不要です。
+pantheranote	ResourceTypeCode.String	Panthera がコンピュータに接続されていないことを確認してください。
+pantherapluginpc	ResourceTypeCode.String	Razer Panthera のコネクタを、PC の USB ポートに差し込みます。
+pantherapressbtn1	ResourceTypeCode.String	
+pantherapressbtn2	ResourceTypeCode.String	と R1 ボタンを長押しします。
+plugandholdpwrbtn	ResourceTypeCode.String	スピーカーの電源ボタンを長押しし、下の [更新] ボタンを押します。
+pluginmousedock	ResourceTypeCode.String	Razer {0} を PC に接続します。
+pluginspeaker	ResourceTypeCode.String	USB ケーブルでスピーカーを PC に接続します。
+plugpoweroutletnote	ResourceTypeCode.String	ノート PC が電源に接続されていることを確認してください。
+plugusbfiber	ResourceTypeCode.String	編みファイバーケーブル (取り外し可) のマイクロ USB コネクタを Razer {0} に差し込みます。
+plugusbtoPC	ResourceTypeCode.String	Razer {0} の USB コネクタを、PC の USB ポートに差し込みます。
+pressbtn	ResourceTypeCode.String	UP ボタンと X 操作ボタンを長押しします。
+pressbtnWolverine	ResourceTypeCode.String	D パッドの UP ボタンと A ボタンを長押しします。
+processfwdata	ResourceTypeCode.String	ファームウェアデータを処理中です･･･
+reconnectdev	ResourceTypeCode.String	デバイスを接続し直してください！
+reminder	ResourceTypeCode.String	リマインダー
+showmodelno	ResourceTypeCode.String	Razer モデル番号の確認方法
+showmodelnoblade	ResourceTypeCode.String	Razer {0} モデル番号の確認方法
+shutdownrazerapps	ResourceTypeCode.String	続行すると、実行中の Razer アプリケーションは自動的に終了します。
+support	ResourceTypeCode.String	支援が必要な場合は、 support@razerzone.com までメールにてお問い合わせください。
+switchtops4	ResourceTypeCode.String	モードを PS4 に切り替えます。
+tryagain	ResourceTypeCode.String	以下の手順にしたがって、再試行してください。
+turnondev	ResourceTypeCode.String	Razer Raptor 27 がオンになっていることを確認してください。
+typecnote	ResourceTypeCode.String	PC に USB-C 端子がない場合、USB-C - USB-A ケーブルおよびアダプターが必要です。これらがないと先に進むことができません。
+update	ResourceTypeCode.String	アップデート
+updatebladec3kbonly	ResourceTypeCode.String	このアップデーターは Razer Blade 15 Mid 2019-Advanced キーボード (モデル RZ09-0301) のみをアップデートできます。
+updatebladekbonly	ResourceTypeCode.String	このアップデーターが更新できるのは Razer {0} キーボードのみです。
+updatefail	ResourceTypeCode.String	ファームウェアのアップデートに失敗しました。 \r\nデバイスを再接続してから、［Retry］（再試行）をクリックしてください。
+updatefw	ResourceTypeCode.String	ファームウェアをアップデート中です･･･
+updatestep	ResourceTypeCode.String	デバイスを PC に接続します。
+updatesuccessful	ResourceTypeCode.String	アップデートに成功しました
+verifyfw	ResourceTypeCode.String	ファームウェアを確認中です･･･
+welcomenote	ResourceTypeCode.String	注:

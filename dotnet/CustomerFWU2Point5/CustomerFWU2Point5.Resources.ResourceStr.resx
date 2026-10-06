@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="updatebladec3kbonly" xml:space="preserve"><value>This updater can only update the Razer Blade 15 Mid 2019-Advanced keyboard (model RZ09-0301).</value></data>
+  <data name="laptoppower1" xml:space="preserve"><value>If using a laptop, ensure that it is plugged into a power outlet.</value></data>
+  <data name="plugusbfiber" xml:space="preserve"><value>Plug the micro USB connector of the detachable braided fiber cable into your Razer {0}.</value></data>
+  <data name="showmodelno" xml:space="preserve"><value>Show me how to find my Razer model number</value></data>
+  <data name="congratulations" xml:space="preserve"><value>CONGRATULATIONS!</value></data>
+  <data name="blade15c2message" xml:space="preserve"><value>This utility will update the keyboard firmware of your Razer {0} (model {1}) if necessary.</value></data>
+  <data name="RaijuNote" xml:space="preserve"><value>Ensure that the USB cable is NOT connected to any system.</value></data>
+  <data name="connbytypec" xml:space="preserve"><value>Connect the Razer Raptor 27 to the USB-C port of your PC.</value></data>
+  <data name="TitleBladeKB" xml:space="preserve"><value>RAZER {0} KEYBOARD FIRMWARE UPDATER</value></data>
+  <data name="atroxplugin" xml:space="preserve"><value>Plug the connector of your Razer Atrox Arcade Stick into the USB port of your PC.</value></data>
+  <data name="reminder" xml:space="preserve"><value>REMINDER</value></data>
+  <data name="Nounplug" xml:space="preserve"><value>Please don't power off your computer or unplug your device(s)</value></data>
+  <data name="NotNeedUpdateRequired" xml:space="preserve"><value>No update required</value></data>
+  <data name="updatestep" xml:space="preserve"><value>Connect the device to your PC.</value></data>
+  <data name="updatefail" xml:space="preserve"><value>Firmware update failed. 
+Please reconnect your device and click retry.</value></data>
+  <data name="pressbtn" xml:space="preserve"><value>Press and hold the UP button and X action button.</value></data>
+  <data name="switchtops4" xml:space="preserve"><value>Switch the mode to PS4.</value></data>
+  <data name="docknoupdate" xml:space="preserve"><value>No Update Required</value></data>
+  <data name="Raionguidemessage" xml:space="preserve"><value>This utility will update the firmware of your Razer Raion controller if necessary.</value></data>
+  <data name="anupdaterequired" xml:space="preserve"><value>An update is required.</value></data>
+  <data name="blade15mid2019message" xml:space="preserve"><value>This utility will update the keyboard firmware of your Razer Blade 15 Mid 2019-Advanced (model RZ09-0301) if necessary.</value></data>
+  <data name="bladekbnotdetect" xml:space="preserve"><value>Razer {0} not detected.</value></data>
+  <data name="typecnote" xml:space="preserve"><value>If your PC does not have a USB-C port, you will need a USB-C to USB-A cable or adapter before you can proceed.</value></data>
+  <data name="turnondev" xml:space="preserve"><value>Make sure your Razer Raptor 27 is turned on.</value></data>
+  <data name="eraseflash" xml:space="preserve"><value>Erasing flash...</value></data>
+  <data name="atroxconncable" xml:space="preserve"><value>Connect the detachable cable to the Razer Atrox Arcade Stick controller.</value></data>
+  <data name="devhavelatestfw" xml:space="preserve"><value>You already have the latest firmware.</value></data>
+  <data name="foundmodelnohere" xml:space="preserve"><value>Your product's model number (e.g. {0}) can usually be found here:</value></data>
+  <data name="atroxnote" xml:space="preserve"><value>Ensure that the Atrox Arcade Stick is NOT connected to any system.</value></data>
+  <data name="updatesuccessful" xml:space="preserve"><value>Update Successful</value></data>
+  <data name="welcomenote" xml:space="preserve"><value>Please note:</value></data>
+  <data name="pantheranote" xml:space="preserve"><value>Ensure that the Panthera is NOT connected to any system.</value></data>
+  <data name="close" xml:space="preserve"><value>CLOSE</value></data>
+  <data name="updatefw" xml:space="preserve"><value>Updating firmware...</value></data>
+  <data name="Title" xml:space="preserve"><value>RAZER {0} FIRMWARE UPDATER</value></data>
+  <data name="shutdownrazerapps" xml:space="preserve"><value>If you proceed, we will automatically shutdown running Razer applications.</value></data>
+  <data name="NoPCPowerOff" xml:space="preserve"><value>Please don’t power off your system.</value></data>
+  <data name="pantherapluginpc" xml:space="preserve"><value>Plug the connector of your Razer Panthera into the USB port of your PC.</value></data>
+  <data name="closesynapseandotherapp" xml:space="preserve"><value>The update is not able to proceed because Synapse or some other
+application is still running.
+                                                     
+Please ensure that Synapse and all other applications are closed
+before restarting the update.</value></data>
+  <data name="exitsynapse" xml:space="preserve"><value>Please close all applications under Razer Central before proceeding. Right-click the Razer icon on the systray and choose ‘Exit All Apps’.</value></data>
+  <data name="connectpoweroutlet" xml:space="preserve"><value>Ensure your laptop is plugged into a power outlet.</value></data>
+  <data name="conndetachablecable" xml:space="preserve"><value>Connect the detachable cable to the Razer Panthera controller.</value></data>
+  <data name="devicewithnewver" xml:space="preserve"><value>Your device has been updated to the latest firmware.</value></data>
+  <data name="verifyfw" xml:space="preserve"><value>Verifying firmware...</value></data>
+  <data name="enterbootloadering" xml:space="preserve"><value>Entering bootloader. Please wait...</value></data>
+  <data name="lowbattery" xml:space="preserve"><value>Battery power is low. Please plug in the power adapter.</value></data>
+  <data name="blade2020message" xml:space="preserve"><value>This utility will update the keyboard firmware (if necessary) of your:
+●    Razer {0} - model {1}</value></data>
+  <data name="BLfailretry" xml:space="preserve"><value>Enter bootloader mode unsuccessful, please restart system and try again.</value></data>
+  <data name="connectmouse" xml:space="preserve"><value>During the firmware update, the mouse will become unresponsive.
+To maintain control of your system, it is recommended to connect a second mouse before you start the update.</value></data>
+  <data name="bladekbupdatefail" xml:space="preserve"><value>Razer {0} firmware update failed.
+Would you like to retry?</value></data>
+  <data name="pluginspeaker" xml:space="preserve"><value>Connect speaker to your PC using the USB cable.</value></data>
+  <data name="plugandholdpwrbtn" xml:space="preserve"><value>Press and hold the power button on the speaker and then press the UPDATE button below.</value></data>
+  <data name="bladekbdetect" xml:space="preserve"><value>Razer {0} keyboard detected.</value></data>
+  <data name="pressbtnWolverine" xml:space="preserve"><value>Press and hold the D-pad Up and A button.</value></data>
+  <data name="pantherapressbtn2" xml:space="preserve"><value>and R1 buttons.</value></data>
+  <data name="pantherapressbtn1" xml:space="preserve"><value>Press and hold </value></data>
+  <data name="processfwdata" xml:space="preserve"><value>Processing firmware data...</value></data>
+  <data name="devicever" xml:space="preserve"><value>Device version:</value></data>
+  <data name="guidemessage" xml:space="preserve"><value>This utility will check the firmware, and update your Razer {0} if necessary.</value></data>
+  <data name="reconnectdev" xml:space="preserve"><value>Please reconnect your device!</value></data>
+  <data name="tryagain" xml:space="preserve"><value>Please follow the steps carefully and try again.</value></data>
+  <data name="atroxpressbtn" xml:space="preserve"><value>Press and hold B and RB buttons.</value></data>
+  <data name="updatebladekbonly" xml:space="preserve"><value>This updater can only update the Razer {0} keyboard.</value></data>
+  <data name="keepholdingprompt" xml:space="preserve"><value>Keep holding the power button until the update has been completed.</value></data>
+  <data name="nodevdetect" xml:space="preserve"><value>Product cannot be detected.</value></data>
+  <data name="plugusbtoPC" xml:space="preserve"><value>Plug the USB connector of your Razer {0} into the USB port of your PC.</value></data>
+  <data name="plugpoweroutletnote" xml:space="preserve"><value>Ensure that your laptop is plugged into a power outlet.</value></data>
+  <data name="cancel" xml:space="preserve"><value>CANCEL</value></data>
+  <data name="newver" xml:space="preserve"><value>Latest version:</value></data>
+  <data name="pluginmousedock" xml:space="preserve"><value>Plug the Razer {0} into your PC.</value></data>
+  <data name="update" xml:space="preserve"><value>UPDATE</value></data>
+  <data name="checkverfail" xml:space="preserve"><value>Get firmware version failed. 
+Please click retry.</value></data>
+  <data name="closeallapp" xml:space="preserve"><value>Please also close all other applications before proceeding with the update.</value></data>
+  <data name="bladekbupdatetonewest" xml:space="preserve"><value>Your system’s keyboard has been updated to the latest firmware.</value></data>
+  <data name="closesynapse" xml:space="preserve"><value>Close Synapse before updating.</value></data>
+  <data name="noupdaterequired" xml:space="preserve"><value>You already have the latest firmware and no update required.</value></data>
+  <data name="support" xml:space="preserve"><value>If you need further assistance, please email support@razerzone.com.</value></data>
+  <data name="laptoppower" xml:space="preserve"><value>If you’re using a laptop, ensure that it is plugged into a power outlet.</value></data>
+  <data name="back" xml:space="preserve"><value>BACK</value></data>
+  <data name="next" xml:space="preserve"><value>NEXT</value></data>
+  <data name="Done" xml:space="preserve"><value>DONE</value></data>
+  <data name="showmodelnoblade" xml:space="preserve"><value>Show me how to find my Razer {0} model number</value></data>
+  </root>

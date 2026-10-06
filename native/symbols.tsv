@@ -1,0 +1,7 @@
+# kind	address	name	comment
+func	0x100025D0	razer_report_crc	XOR of report bytes [3..88] (buffer incl. report id) stored at [89]
+func	0x10002630	razer_feature_transact	HidD_SetFeature(91 bytes) then poll HidD_GetFeature until txn/class/id echo with status 0x02 (OK); returns status
+func	0x10002840	hid_get_caps	HidD_GetPreparsedData + HidP_GetCaps (result unused)
+func	0x10003020	open_hid_device	enumerate HID interfaces (or WinUSB GUID for BL 1.x/3.0) matching VID/PID[/bcd], picks MI/COL by report type flags, opens handle
+func	0x10004330	rtl_get_version	ntdll!RtlGetVersion into OSVERSIONINFOEXW
+func	0x100053C0	stop_dependent_services	EnumDependentServicesW + ControlService(STOP) on each (used by DoStopSvc)

@@ -1,0 +1,151 @@
+168	AccountModeChangedEventArgs
+205	NewMode
+218	PreviousMode
+235	Razer Central
+256	config.log4net
+277	LogPath
+290	Application
+307	LogFileName
+324	{0}_{1} Client.log
+349	<log4net> \r\n<appender name='RollingLogFileAppender' type='log4net.Appender.RollingFileAppender,log4net'>\r\n<file type='log4net.Util.PatternString' value='%property{LogPath}\\Razer\\%property{Application}\\Logs\\%property{LogFileName}' />\r\n<param name='AppendToFile' value='true' /> \r\n<param name='MaxSizeRollBackups' value='3' /> \r\n<param name='MaximumFileSize' value='5MB' /> \r\n<param name='RollingStyle' value='Size' /> \r\n<param name='StaticLogFileName' value='true' /> \r\n<lockingModel type='log4net.Appender.FileAppender+MinimalLock' />\r\n\r\n    \r\n<layout type='log4net.Layout.PatternLayout,log4net'> \r\n    <param name='ConversionPattern' value='%d [%t] %-5p %c [%x] - %m%n' /> \r\n</layout> \r\n</appender> \r\n  \r\n<root> \r\n<level value='DEBUG' /> \r\n<appender-ref ref='RollingLogFileAppender' /> \r\n</root> \r\n</log4net>   \r\n
+1439	{CD7C71F0-A5B9-4F24-897A-DF6E20E43B96}
+1492	{DBG-CD7C71F0-A5B9-4F24-897A-DF6E20E43B96}
+1549	{E7A6CCA9-FF3F-4741-8E66-1127EE39471D}
+1602	{DBG-E7A6CCA9-FF3F-4741-8E66-1127EE39471D}
+1659	{FC828A97-C116-453D-BD88-AD471496E03C}
+1712	{DBG-FC828A97-C116-453D-BD88-AD471496E03C}
+1769	Windows
+1782	7
+1787	XP
+1792	Vista
+1801	8
+1806	8.1
+1811	10
+1816	en
+1821	64
+1826	kernel32.dll
+1843	IsWow64Process
+1864	32
+1869	SystemManufacturer
+1894	Win32_ComputerSystemProduct
+1931	Vendor
+1940	Generic-MFR
+1957	SystemProductName
+1982	Name
+1991	Generic-MDL
+2008	SystemSKU
+2021	SKUNumber
+2034	Generic-SKU
+2051	RAZER
+2060	BLADE
+2069	Win32_BIOS
+2086	SerialNumber
+2103	Generic-SSN
+2120	  
+2125	Serialization failed.
+2154	HARDWARE\\DESCRIPTION\\System\\BIOS
+2199	Failed to get value for BIOS key 
+2244	Failed to get Management value for property 
+2305	SystemInfo
+2322	SystemTrayRoot
+2343	SystemTrayItem
+2364	Item
+2373	../
+2378	..\\
+2383	T must be an enumerated type
+2424	Failed to set thread token: 
+2465	No session attached to the physical console.
+2526	Failed to query user token: 
+2567	Duplicate token failed: 
+2600	Impersonator
+2617	en-US
+2626	zh-CN
+2635	zh-CHT
+2644	fr-FR
+2653	ko-KR
+2662	ja-JP
+2671	de-DE
+2680	ru-RU
+2689	es-ES
+2698	pt-BR
+2707	zh-TW
+2716	fr
+2721	kr
+2726	ja
+2731	de
+2736	ru
+2741	LanguageInfo: "LanguageKey"="{0}", "CopLanguage"="{1}"
+2814	_
+2819	.log
+2828	SELECT * \r\n                                                                                    FROM  Win32_NetworkAdapter \r\n                                                                                    WHERE Manufacturer != 'Microsoft' \r\n                                                                                        AND NOT PNPDeviceID LIKE 'ROOT\\\\%'
+3318	Exception in NetworkIsUpInternal.
+3363	NetworkMonitor
+3384	Launching {0} {1}
+3409	{0}: {1} [{2}] completed with return code {3}
+3470	{0}: Not waiting for the process {1} [{2}]
+3527	{0}: Error executing {1}
+3560	{0}: Launch file does not exist {1}
+3609	"
+3614	{0}: Launching {1} {2}
+3647	\tWorking Directory: 
+3676	{0}: Launching process interactively
+3725	runas
+3734	{0}: Launching process NON-interactively
+3791	winlogon
+3804	{0}: Failed to open user process token
+3857	{0}: Failed to duplicate user process token
+3918	winsta0\\default
+3939	{0}: Launching NAC process
+3976	 
+3981	{0}: Failed to create process for this user
+4042	Failed to create 
+4067	 process: 
+4084	ProcessLauncher
+4105	PromptRequest
+4126	RequestingApplication
+4155	Type
+4164	Message
+4177	Entry
+4186	Language
+4199	Value
+4208	PromptResultEventArgs
+4237	Result
+4246	Exception from click handler
+4287	Id
+4292	Text
+4301	SubText
+4314	Count
+4323	IsCheckable
+4340	Checked
+4353	Color
+4362	SubItems
+4375	DisplayImage
+4392	SystemTrayItem: "Id"="{0}", "Text"="{1}", "SubText"="{2}", "Count"="{3}", 
+4493	"IsCheckable"="{0}", "Checked"="{1}", "ArgbColor"="{2}", "Type"="{3}"
+4586	LaunchPath
+4603	LaunchArguments
+4624	Items
+4633	RazerDevice: "Vid"="{0}", "Pid"="{1}", "Edition"="{2}", "DeviceName"="{3}", "FirmwareVersion"="{4}"
+4767	RazerDevice
+4784	Vid
+4789	Pid
+4794	Edition
+4807	DeviceName
+4824	TosConsentDetails
+4849	Consented
+4862	Scope
+4871	ConsentUrl
+4888	ServiceCode
+4905	App
+4910	WTSQuerySessionInformation failed with error code 
+4979	Win32
+4988	Current session state is 
+5025	SYSTEM
+5034	Razer
+5043	Update
+5052	Failed to read settings file: Reverting to default.
+5121	Razer.ActionService.SettingsManager.DefaultSettings.xml
+5198	Updater.SettingsManager
+5231	UpdateManager.xml
+5256	GUID
+5265	{{Left={0},Top={1},Right={2},Bottom={3}}}

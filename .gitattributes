@@ -1,0 +1,5 @@
+*.hex -text
+*.bin binary
+*.png binary
+*.ico binary
+*.resx text

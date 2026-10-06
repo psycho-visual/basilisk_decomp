@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RcClientBase</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <ProjectReference Include="../ActionServiceCommon/ActionServiceCommon.csproj" />
+    <PackageReference Include="log4net" Version="1.2.10" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+  </ItemGroup>
+</Project>

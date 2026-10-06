@@ -1,0 +1,24 @@
+name	type	value
+BCDPID_BL	ResourceTypeCode.String	0099
+BLPID	ResourceTypeCode.String	110E
+BLVER	ResourceTypeCode.String	2.0
+BLVID	ResourceTypeCode.String	1532
+DevFWLineNum	ResourceTypeCode.Int32	3944
+DevFWVer	ResourceTypeCode.String	1.02.00
+DevName	ResourceTypeCode.String	巴塞利斯蛇 V3
+DevType	ResourceTypeCode.String	1
+DummyUpdater	ResourceTypeCode.Boolean	False
+FWType	ResourceTypeCode.String	2
+FeatureReportLen	ResourceTypeCode.String	91
+FlashFWType	ResourceTypeCode.String	5
+FlashFWUpdate	ResourceTypeCode.String	0
+FlashFWVer	ResourceTypeCode.String	1.12.00
+InputReportLen	ResourceTypeCode.String	0
+Internal	ResourceTypeCode.Int32	0
+LogFile	ResourceTypeCode.String	0
+OutputReportLen	ResourceTypeCode.String	0
+PID	ResourceTypeCode.String	0099
+ProductName	ResourceTypeCode.String	Basilisk V3
+ReportType	ResourceTypeCode.String	4
+VID	ResourceTypeCode.String	1532
+VerifyChecksum	ResourceTypeCode.String	0

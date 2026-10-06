@@ -1,0 +1,224 @@
+154	==>AccountManagerClient({0}, {1})
+199	<==AccountManagerClient
+232	==>RegisterServiceCode({0})
+269	<==RegisterServiceCode()
+302	==>StartAutoRegistration()
+339	<==StartAutoRegistration()
+376	==>StopAutoRegistration()
+413	<==StopAutoRegistration()
+450	==>AutoRegistrationInterval_get()
+495	<==AutoRegistrationInterval_get({0})
+544	==>AutoRegistrationInterval_set({0})
+593	Interval must be greater than five minutes
+650	<==AutoRegistrationInterval_set()
+695	==>StartLogin()
+716	<==StartLogin
+737	==>TryLogin()
+758	<==TryLogin
+775	==>IsLoggedIn()
+796	<==IsLoggedIn - {0}
+825	==>RefreshToken()
+850	<==RefreshToken
+871	==>StartLogout()
+896	<==StartLogout
+917	==>GetUserProfile()
+946	<==GetUserProfile
+971	==>RefreshUserProfile()
+1004	<==RefreshUserProfile
+1033	==>UpdateUserProfile()
+1066	<==UpdateUserProfile
+1095	==>UpdateUserProfile({0}, {1})
+1136	==>DeleteProfileItem({0})
+1173	<==DeleteProfileItem
+1202	==>SubmitFeedback()
+1231	<==SubmitFeedback
+1256	==>PushBigData()
+1281	<==PushBigData
+1302	==>get_OverlayEnabled
+1331	<==get_OverlayEnabled
+1360	==>set_OverlayEnabled({0})
+1397	<==set_OverlayEnabled
+1426	==>SetSettingBaseAddress({0})
+1467	<==SetSettingBaseAddress
+1500	==>GetSettingList({0}, {1}, {2})
+1545	<==GetSettingList
+1570	==>GetSettingList({0}, {1})
+1607	==>GetSetting({0}, {1}, {2}, {3})
+1652	<==GetSetting - {0}
+1681	{0}:{1}
+1694	(null)
+1703	==>GetSetting(({0}, {1}), {2}, {3})
+1752	<==GetSetting
+1773	==>GetSetting({0}, {1}, {2}, ({3}){4})
+1826	Unsupported setting type: 
+1863	==>GetSetting(({0}, {1}), {2}, ({3}){4})
+1920	==>GetGlobalSetting({0}, ({1}){2})
+1969	<==GetGlobalSetting
+1998	==>SetSetting(({0}, {1}), {2})
+2039	<==SetSetting
+2060	==>DeleteSetting(({0}, {1}), {2})
+2105	<==DeleteSetting
+2130	==>DeleteAll({0}, {1})
+2163	<==DeleteAll
+2180	==>GetSetting({0}, {1}, {2})
+2221	==>SetSetting<byte>({0}, {1})
+2262	==>SetSetting<string>({0}, {1})
+2307	==>SetSetting<int>({0}, {1})
+2348	==>SetSetting<bool>({0}, {1})
+2389	==>ResolveConflict({0}, {1}, {2})
+2434	<==ResolveConflict
+2459	==>ResolveConflict({0}, {1})
+2500	==>StartSync({0})
+2525	, 
+2530	null
+2539	<==StartSync
+2556	==>CancelSync()
+2577	<==CancelSync
+2598	==>GetLastSyncDate()
+2627	<==GetLastSyncDate
+2652	==>GetUILanguage()
+2677	<==GetUILanguage(null)
+2710	<==GetUILanguage({0}:{1})
+2747	==>SetUILanguage({0})
+2776	<==SetUILanguage
+2801	==>GetUITheme()
+2822	<==GetUITheme({0})
+2847	==>SetUITheme({0})
+2872	<==SetUITheme
+2893	==>AddLicenseCode({0}, {1})
+2930	<==AddLicenseCode
+2955	==>IsLicensed({0})
+2980	<==IsLicensed
+3001	==>RequestLicense({0}, {1}, {2})
+3046	<==RequestLicense
+3071	==>LicensesAvailable({0}, {1})
+3112	<==LicensesAvailable
+3141	==>RegisterPlugin({0})
+3174	<==RegisterPlugin
+3199	==>RegisterUnplug({0})
+3232	<==RegisterUnplug
+3257	==>GetDeviceInfo({0})
+3286	<==GetDeviceInfo
+3311	==>RegisterWarranty(*******, {0})
+3356	<==RegisterWarranty
+3385	==>GetMyWarranties()
+3414	<==GetMyWarranties
+3439	==>GetWarrantyInfo({0})
+3472	<==GetWarrantyInfo
+3497	==>HideWarranty({0})
+3526	<==HideWarranty
+3547	==>StartUi()
+3564	<==StartUi
+3581	==>FeatureEnabled({0}, {1})
+3618	<==FeatureEnabled
+3643	Service disconnected waiting for consent.
+3700	==>Event: SyncProgress({0}, {1}/{2})
+3749	Exception in sync progress handler
+3798	<==Event: SyncProgress
+3831	==>Event: SyncCompleteSyncComplete({0})
+3884	<==Event: SyncComplete
+3917	Exception in OnReceive
+3950	Supressing login complete event for same user.
+4015	==>Event: LoginComplete()
+4052	Exception in LoginComplete callback
+4101	<==Event: LoginComplete
+4134	==>Event: LogoutStarted({0})
+4175	Exception in LogoutStarted callback
+4224	<==Event: LogoutStarted
+4257	==>Event: LogoutComplete({0})
+4298	Exception in LogoutComplete callback
+4347	<==Event: LogoutComplete
+4380	==>Event: UserProfileUpdated([{0}])
+4429	,
+4434	Exception in UserProfileUpdated callback
+4491	<==Event: UserProfileUpdated
+4532	==>Event: UIThemeChanged({0})
+4573	<==Event: UIThemeChanged
+4606	==>Event: UILanguageChanged({0})
+4651	Exception in UILanguageChanged callback
+4704	<==Event: UILanguageChanged
+4741	==>Event: GlobalSettingChanged({0})
+4790	<==Event: GlobalSettingChanged
+4831	==>Event: FeatureChanged({0}, {1})
+4880	Disabled
+4893	Enabled
+4906	<==Event: FeatureChanged
+4939	==>Event: UserUpdated()
+4972	<==Event: UserUpdated
+5001	AccountManagerClient
+5030	Razer Central
+5051	Global
+5060	Exception regiserting socket
+5101	public_profile
+5122	user_friends
+5139	email
+5148	wl.basic
+5161	wl.offline_access
+5186	wl.signin
+5199	user_read
+5212	user_blocks_edit
+5237	user_blocks_read
+5262	user_follows_edit
+5287	user_subscriptions
+5312	chat_login
+5329	\\
+5334	==>VerifyTosConsent({0})
+5367	<==VerifyTosConsent
+5396	user_about_me
+5417	user_birthday
+5438	user_education_history
+5471	user_events
+5488	user_games_activity
+5517	user_groups
+5534	user_hometown
+5555	user_likes
+5572	user_location
+5593	user_photos
+5610	user_posts
+5627	user_relationships
+5652	user_relationship_details
+5689	user_religion_politics
+5722	user_status
+5739	user_tagged_places
+5764	user_videos
+5781	user_website
+5798	user_work_history
+5823	manage_notifications
+5852	manage_pages
+5869	publish_pages
+5890	public_actions
+5911	rsvp_event
+5928	wl.birthday
+5945	wl.calendars
+5962	wl.calendars_update
+5991	wl.emails
+6004	wl.events_create
+6029	wl.imap
+6042	wl.phone_numbers
+6067	wl.photos
+6080	wl.postal_addresses
+6109	wl.skydrive
+6126	wl.skydrive_update
+6151	wl.work_profile
+6172	office.onenote_create
+6201	channel_read
+6218	channel_editor
+6239	channel_commercial
+6264	channel_stream
+6285	channel_check_subscription
+6322	channel_subscriptions
+6351	user_actions.books
+6376	user_actions.fitness
+6405	user_actions.music
+6430	user_actions.news
+6455	user_actions.video
+6480	read_custom_friendlists
+6513	read_insights
+6534	read_mailbox
+6551	read_page_mailboxes
+6580	read_stream
+6597	wl.contacts_birthday
+6626	wl.contacts_create
+6651	wl.contacts_calendars
+6680	wl.contacts_photos
+6705	wl.contacts_skydrive

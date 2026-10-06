@@ -1,0 +1,3 @@
+name	type	value
+$this.Icon	System.Drawing.Icon	<System.Drawing.Icon -> $this.Icon.png>
+pictureBox1.InitialImage	System.Drawing.Bitmap	<System.Drawing.Bitmap -> pictureBox1.InitialImage.png>

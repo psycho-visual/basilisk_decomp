@@ -1,0 +1,808 @@
+00433618	unicode	Maximum allowed array size (%u) is exceeded
+00433688	unicode	hc%u
+0043369c	unicode	xc%u
+004337a8	unicode	SeSecurityPrivilege
+004337d0	unicode	SeRestorePrivilege
+004337f8	unicode	SeCreateSymbolicLinkPrivilege
+00433834	unicode	\\??\\
+00433840	unicode	UNC\\
+0043385c	unicode	rtmp%d
+00433894	unicode	ROOT\\CIMV2
+004338ac	string	SELECT * FROM Win32_OperatingSystem
+004338d2	unicode	LName
+004338e0	unicode	Windows 10
+00433900	unicode	.rar
+0043390c	unicode	.exe
+00433918	unicode	.sfx
+0043392c	unicode	?*<>|"
+00433944	unicode	%c:\\
+00433950	unicode	\\\\?\\
+00433984	unicode	COM#
+00433990	unicode	LPT#
+0043399c	string	*messages***
+004339ac	unicode	*messages***
+004339d4	unicode	STRINGS
+004339e4	unicode	DIALOG
+004339f4	unicode	MENU
+00433a00	unicode	DIRECTION
+00433a40	unicode	$%s:%s
+00433a50	unicode	$%s:
+00433a5c	unicode	CAPTION
+00433a6c	unicode	SIZE
+00433a78	unicode	Crypt32.dll
+00433a90	string	CryptProtectMemory
+00433aa4	string	CryptUnprotectMemory
+00433abc	unicode	CryptProtectMemory failed
+00433af0	unicode	CryptUnprotectMemory failed
+00433c2c	string	xlistpos
+00433c38	unicode	kernel32
+00433c4c	string	SetDllDirectoryW
+00433c60	string	SetDefaultDllDirectories
+00433c7c	unicode	version.dll
+00433c94	unicode	DXGIDebug.dll
+00433cb0	unicode	sfc_os.dll
+00433cc8	unicode	SSPICLI.DLL
+00433ce0	unicode	rsaenh.dll
+00433cf8	unicode	UXTheme.dll
+00433d10	unicode	dwmapi.dll
+00433d28	unicode	cryptbase.dll
+00433d44	unicode	lpk.dll
+00433d54	unicode	usp10.dll
+00433d68	unicode	clbcatq.dll
+00433d80	unicode	comres.dll
+00433d98	unicode	ws2_32.dll
+00433db0	unicode	ws2help.dll
+00433dc8	unicode	psapi.dll
+00433ddc	unicode	ieframe.dll
+00433df4	unicode	ntshrui.dll
+00433e0c	unicode	atl.dll
+00433e1c	unicode	setupapi.dll
+00433e38	unicode	apphelp.dll
+00433e50	unicode	userenv.dll
+00433e68	unicode	netapi32.dll
+00433e84	unicode	shdocvw.dll
+00433e9c	unicode	crypt32.dll
+00433eb4	unicode	msasn1.dll
+00433ecc	unicode	cryptui.dll
+00433ee4	unicode	wintrust.dll
+00433f00	unicode	shell32.dll
+00433f18	unicode	secur32.dll
+00433f30	unicode	cabinet.dll
+00433f48	unicode	oleaccrc.dll
+00433f64	unicode	ntmarta.dll
+00433f7c	unicode	profapi.dll
+00433f94	unicode	WindowsCodecs.dll
+00433fb8	unicode	srvcli.dll
+00433fd0	unicode	cscapi.dll
+00433fe8	unicode	slc.dll
+00433ff8	unicode	imageres.dll
+00434014	unicode	dnsapi.DLL
+0043402c	unicode	iphlpapi.DLL
+00434048	unicode	WINNSI.DLL
+00434060	unicode	netutils.dll
+0043407c	unicode	mpr.dll
+0043408c	unicode	devrtl.dll
+004340a4	unicode	propsys.dll
+004340bc	unicode	mlang.dll
+004340d0	unicode	samcli.dll
+004340e8	unicode	samlib.dll
+00434100	unicode	wkscli.dll
+00434118	unicode	dfscli.dll
+00434130	unicode	browcli.dll
+00434148	unicode	rasadhlp.dll
+00434164	unicode	dhcpcsvc6.dll
+00434180	unicode	dhcpcsvc.dll
+0043419c	unicode	XmlLite.dll
+004341b4	unicode	linkinfo.dll
+004341d0	unicode	cryptsp.dll
+004341e8	unicode	RpcRtRemote.dll
+00434208	unicode	aclui.dll
+0043421c	unicode	dsrole.dll
+00434234	unicode	peerdist.dll
+00434250	unicode	uxtheme.dll
+00434268	unicode	Please remove %s from %s folder. It is unsecure to run %s until it is done.
+00434300	unicode	CreateThread failed
+00434328	unicode	\nWaitForMultipleObjects error %d, GetLastError %d
+00434390	unicode	\nThread pool initialization failed.
+004343e4	unicode	%s: %s
+004343fc	string	Unknown exception
+00434410	string	bad allocation
+0043455c	unicode	RarHtmlClassName
+00434580	unicode	Shell.Explorer
+004345a0	unicode	about:blank
+004345b8	unicode	<html>
+004345c8	unicode	<head><meta http-equiv="content-type" content="text/html; charset=
+00434650	unicode	utf-8"></head>
+00434670	unicode	</html>
+00434680	unicode	</p>
+0043468c	unicode	<br>
+00434698	unicode	<style>
+004346a8	unicode	</style>
+004346c0	unicode	<style>body{font-family:"Arial";font-size:12;}</style>
+00434730	unicode	&nbsp;
+00434746	unicode	AEDIT
+0043476c	unicode	riched20.dll
+00434788	string	s:IDS_BROWSETITLE
+0043479c	string	s:IDS_CMDEXTRACTING
+004347b0	string	s:IDS_SKIPPING
+004347c0	string	s:IDS_UNEXPEOF
+004347d0	string	s:IDS_FILEHEADERBROKEN
+004347e8	string	s:IDS_HEADERBROKEN
+004347fc	string	s:IDS_MAINHEADERBROKEN
+00434814	string	s:IDS_CMTHEADERBROKEN
+0043482c	string	s:IDS_CMTBROKEN
+0043483c	string	s:IDS_OUTOFMEMORYERROR
+00434854	string	s:IDS_UNKNOWNMETHOD
+00434868	string	s:IDS_CANNOTOPEN
+0043487c	string	s:IDS_CANNOTCREATE
+00434890	string	s:IDS_CANNOTMKDIR
+004348a4	string	s:IDS_ENCRCRCFAILED
+004348b8	string	s:IDS_EXTRCRCFAILED
+004348cc	string	s:IDS_PACKEDDATACRCFAILED
+004348e8	string	s:IDS_WRITEERROR
+004348fc	string	s:IDS_READERROR
+0043490c	string	s:IDS_CLOSEERROR
+00434920	string	s:IDS_CANNOTFINDVOL
+00434934	string	s:IDS_BADARCHIVE
+00434948	string	s:IDS_EXTRACTING
+0043495c	string	s:IDS_ASKNEXTVOLTITLE
+00434974	string	s:IDS_ARCHEADERBROKEN
+0043498c	string	s:IDS_DONE
+00434998	string	s:IDS_ERROR
+004349a4	string	s:IDS_ERRORS
+004349b4	string	s:IDS_BYTES
+004349c0	string	s:IDS_MODIFIEDON
+004349d4	string	s:IDS_BADFOLDER
+004349e4	string	s:IDS_CREATEERRORS
+004349f8	string	s:IDS_RESTARTHINT
+00434a0c	string	s:IDS_CRCERRORS
+00434a1c	string	s:IDS_ALLFILES
+00434a2c	string	s:IDS_TITLE1
+00434a3c	string	s:IDS_TITLE1A
+00434a4c	string	s:IDS_TITLE2
+00434a5c	string	s:IDS_TITLE3
+00434a6c	string	s:IDS_TITLE4
+00434a7c	string	s:IDS_TITLE5
+00434a8c	string	s:IDS_TITLE6
+00434a9c	string	s:IDS_ARCBROKEN
+00434aac	string	s:IDS_EXTRFILESTO
+00434ac0	string	s:IDS_EXTRFILESTOTEMP
+00434ad8	string	s:IDS_EXTRACTBUTTON
+00434aec	string	s:IDS_EXTRACTPROGRESS
+00434b04	string	s:IDS_MAXPATHLIMIT
+00434b18	string	s:IDS_UNKENCMETHOD
+00434b2c	string	s:IDS_WRONGPASSWORD
+00434b40	string	s:IDS_WRONGFILEPASSWORD
+00434b58	string	s:IDS_COPYERROR
+00434b68	string	s:IDS_CANNOTCREATELNKS
+00434b80	string	s:IDS_CANNOTCREATELNKH
+00434b98	string	s:IDS_ERRLNKTARGET
+00434bac	string	s:IDS_NEEDADMIN
+00434bbc	string	s:IDS_PAUSE
+00434bc8	string	s:IDS_CONTINUE
+00434bd8	string	s:IDS_SECWARNING
+00434bec	string	s:IDS_SECDELDLL
+00434bfc	string	$STARTDLG:SIZE
+00434c0c	string	$STARTDLG:CAPTION
+00434c20	string	$STARTDLG:IDC_DESTEDITTITLE
+00434c3c	string	$STARTDLG:IDC_CHANGEDIR
+00434c54	string	$STARTDLG:IDC_PROGRESSBARTITLE
+00434c74	string	$STARTDLG:IDOK
+00434c84	string	$STARTDLG:IDCANCEL
+00434c98	string	$REPLACEFILEDLG:SIZE
+00434cb0	string	$REPLACEFILEDLG:CAPTION
+00434cc8	string	$REPLACEFILEDLG:IDC_OWRFILEEXISTS
+00434cec	string	$REPLACEFILEDLG:IDC_OWRASKREPLACE
+00434d10	string	$REPLACEFILEDLG:IDC_OWRQUESTION
+00434d30	string	$REPLACEFILEDLG:IDC_OWRYES
+00434d4c	string	$REPLACEFILEDLG:IDC_OWRALL
+00434d68	string	$REPLACEFILEDLG:IDC_OWRRENAME
+00434d88	string	$REPLACEFILEDLG:IDC_OWRNO
+00434da4	string	$REPLACEFILEDLG:IDC_OWRNOALL
+00434dc4	string	$REPLACEFILEDLG:IDC_OWRCANCEL
+00434de4	string	$RENAMEDLG:SIZE
+00434df4	string	$RENAMEDLG:CAPTION
+00434e08	string	$RENAMEDLG:IDOK
+00434e18	string	$RENAMEDLG:IDCANCEL
+00434e2c	string	$RENAMEDLG:IDC_RENAMEFROM
+00434e48	string	$RENAMEDLG:IDC_RENAMETO
+00434e60	string	$GETPASSWORD1:SIZE
+00434e74	string	$GETPASSWORD1:CAPTION
+00434e8c	string	$GETPASSWORD1:IDC_PASSWORDENTER
+00434eac	string	$GETPASSWORD1:IDOK
+00434ec0	string	$GETPASSWORD1:IDCANCEL
+00434ed8	string	$LICENSEDLG:SIZE
+00434eec	string	$LICENSEDLG:CAPTION
+00434f00	string	$LICENSEDLG:IDOK
+00434f14	string	$LICENSEDLG:IDCANCEL
+00434f2c	string	$ASKNEXTVOL:SIZE
+00434f40	string	$ASKNEXTVOL:CAPTION
+00434f54	string	$ASKNEXTVOL:IDC_NEXTVOLINFO1
+00434f74	string	$ASKNEXTVOL:IDC_NEXTVOLFIND
+00434f90	string	$ASKNEXTVOL:IDC_NEXTVOLINFO2
+00434fb0	string	$ASKNEXTVOL:IDOK
+00434fc4	string	$ASKNEXTVOL:IDCANCEL
+00434fdc	unicode	RarSFX
+00434fec	unicode	STATIC
+00434ffc	unicode	REPLACEFILEDLG
+0043501c	unicode	RENAMEDLG
+00435030	unicode	%s %s %s
+00435044	unicode	%s %s
+00435050	unicode	GETPASSWORD1
+00435078	unicode	ASKNEXTVOL
+00435090	unicode	winrarsfxmappingfile.tmp
+004350c4	unicode	sfxname
+004350d8	unicode	%4d-%02d-%02d-%02d-%02d-%02d-%03d
+0043511c	unicode	sfxstime
+00435130	unicode	STARTDLG
+00435144	unicode	sfxcmd
+00435154	unicode	sfxpar
+00435164	unicode	LICENSEDLG
+00435180	unicode	__tmp_rar_sfx_access_check_%u
+004351bc	unicode	-el -s2 "-d%s" "-sp%s"
+004351ec	unicode	runas
+004351f8	unicode	"%s"\n%s
+00435210	unicode	Delete
+00435220	unicode	Text
+0043522c	unicode	Title
+00435238	unicode	Path
+00435244	unicode	Silent
+00435254	unicode	Overwrite
+00435268	unicode	Setup
+00435274	unicode	TempMode
+00435288	unicode	License
+00435298	unicode	Presetup
+004352ac	unicode	Shortcut
+004352c0	unicode	SavePath
+004352d4	unicode	Update
+004352e4	unicode	SetupCode
+004352f8	unicode	%s.%d.tmp
+00435310	unicode	Software\\Microsoft\\Windows\\CurrentVersion
+00435364	unicode	ProgramFilesDir
+00435388	unicode	HIDE
+004353a4	unicode	%s%s%u
+004353b4	unicode	.lnk
+004353c0	unicode	.inf
+004353cc	unicode	Install
+004353dc	unicode	Software\\WinRAR SFX
+00435410	TerminatedCString	USER32.dll
+00435420	TerminatedCString	GDI32.dll
+00435430	TerminatedCString	COMDLG32.dll
+00435440	TerminatedCString	ADVAPI32.dll
+00435450	TerminatedCString	SHELL32.dll
+00435470	TerminatedCString	ole32.dll
+0043557c	unicode	KERNEL32.DLL
+00435598	string	AcquireSRWLockExclusive
+004355b0	string	ReleaseSRWLockExclusive
+004355d0	TerminatedCString	SHLWAPI.dll
+004355e0	TerminatedCString	COMCTL32.dll
+004356d8	string	bad array new length
+004358ec	string	bad exception
+00435c88	string	__based(
+00435c94	string	__cdecl
+00435c9c	string	__pascal
+00435ca8	string	__stdcall
+00435cb4	string	__thiscall
+00435cc0	string	__fastcall
+00435ccc	string	__vectorcall
+00435cdc	string	__clrcall
+00435cf0	string	__swift_1
+00435cfc	string	__swift_2
+00435d08	string	__swift_3
+00435d1c	string	__restrict
+00435d28	string	__unaligned
+00435d34	string	restrict(
+00435d48	string	 delete
+00435d6c	string	operator
+00435df4	string	`vftable'
+00435e00	string	`vbtable'
+00435e20	string	`local static guard'
+00435e38	string	`string'
+00435e44	string	`vbase destructor'
+00435e58	string	`vector deleting destructor'
+00435e78	string	`default constructor closure'
+00435e98	string	`scalar deleting destructor'
+00435eb8	string	`vector constructor iterator'
+00435ed8	string	`vector destructor iterator'
+00435ef8	string	`vector vbase constructor iterator'
+00435f1c	string	`virtual displacement map'
+00435f38	string	`eh vector constructor iterator'
+00435f5c	string	`eh vector destructor iterator'
+00435f7c	string	`eh vector vbase constructor iterator'
+00435fa4	string	`copy constructor closure'
+00435fc0	string	`udt returning'
+00435fdc	string	`local vftable'
+00435fec	string	`local vftable constructor closure'
+00436018	string	 delete[]
+00436024	string	`omni callsig'
+00436034	string	`placement delete closure'
+00436050	string	`placement delete[] closure'
+00436070	string	`managed vector constructor iterator'
+00436098	string	`managed vector destructor iterator'
+004360c0	string	`eh vector copy constructor iterator'
+004360e8	string	`eh vector vbase copy constructor iterator'
+00436114	string	`dynamic initializer for '
+00436130	string	`dynamic atexit destructor for '
+00436154	string	`vector copy constructor iterator'
+00436178	string	`vector vbase copy constructor iterator'
+004361a4	string	`managed vector copy constructor iterator'
+004361d0	string	`local static thread guard'
+004361ec	string	operator "" 
+004361fc	string	operator co_await
+00436210	string	operator<=>
+0043621c	string	 Type Descriptor'
+00436230	string	 Base Class Descriptor at (
+0043624c	string	 Base Class Array'
+00436260	string	 Class Hierarchy Descriptor'
+00436280	string	 Complete Object Locator'
+0043629c	string	`anonymous namespace'
+004362c0	unicode	<pi-ms-win-core-fibers-l1-1-1
+004362fc	unicode	<pi-ms-win-core-synch-l1-2-0
+00436338	unicode	api-ms-
+00436350	string	FlsAlloc
+00436364	string	FlsFree
+00436374	string	FlsGetValue
+00436388	string	FlsSetValue
+0043639c	string	InitializeCriticalSectionEx
+00436414	string	(null)
+0043641c	unicode	(null)
+004364cc	unicode	mscoree.dll
+004364e4	string	CorExitProcess
+004366e8	string	NAN(SNAN)
+004366f4	string	nan(snan)
+00436700	string	NAN(IND)
+0043670c	string	nan(ind)
+00436718	string	e+000
+0043673c	string	Sunday
+00436744	string	Monday
+0043674c	string	Tuesday
+00436754	string	Wednesday
+00436760	string	Thursday
+0043676c	string	Friday
+00436774	string	Saturday
+004367b0	string	January
+004367b8	string	February
+004367c4	string	March
+004367cc	string	April
+004367e4	string	August
+004367ec	string	September
+004367f8	string	October
+00436800	string	November
+0043680c	string	December
+00436820	string	MM/dd/yy
+0043682c	string	dddd, MMMM dd, yyyy
+00436840	string	HH:mm:ss
+00436884	unicode	Sunday
+00436894	unicode	Monday
+004368a4	unicode	Tuesday
+004368b4	unicode	Wednesday
+004368c8	unicode	Thursday
+004368dc	unicode	Friday
+004368ec	unicode	Saturday
+00436960	unicode	January
+00436970	unicode	February
+00436984	unicode	March
+00436990	unicode	April
+0043699c	unicode	June
+004369a8	unicode	July
+004369b4	unicode	August
+004369c4	unicode	September
+004369d8	unicode	October
+004369e8	unicode	November
+004369fc	unicode	December
+00436a20	unicode	MM/dd/yy
+00436a34	unicode	dddd, MMMM dd, yyyy
+00436a5c	unicode	HH:mm:ss
+00436a70	unicode	en-US
+00437440	unicode	api-ms-win-appmodel-runtime-l1-1-1
+00437488	unicode	<pi-ms-win-core-datetime-l1-1-1
+004374c8	unicode	<pi-ms-win-core-fibers-l1-1-1
+00437504	unicode	<pi-ms-win-core-file-l2-1-1
+00437540	unicode	<pi-ms-win-core-localization-l1-2-1
+00437588	unicode	<pi-ms-win-core-localization-obsolete-l1-2-0
+004375e8	unicode	<pi-ms-win-core-processthreads-l1-1-2
+00437634	unicode	<pi-ms-win-core-string-l1-1-0
+00437670	unicode	<pi-ms-win-core-synch-l1-2-0
+004376ac	unicode	<pi-ms-win-core-sysinfo-l1-2-1
+004376ec	unicode	<pi-ms-win-core-winrt-l1-1-0
+00437728	unicode	<pi-ms-win-core-xstate-l2-1-0
+00437768	unicode	api-ms-win-rtcore-ntuser-window-l1-1-0
+004377b8	unicode	api-ms-win-security-systemfunctions-l1-1-0
+00437810	unicode	ext-ms-win-kernel32-package-current-l1-1-0
+00437868	unicode	ext-ms-win-ntuser-dialogbox-l1-1-0
+004378b0	unicode	ext-ms-win-ntuser-windowstation-l1-1-0
+00437900	unicode	advapi32
+00437914	unicode	kernel32
+00437928	unicode	user32
+00437940	string	FlsAlloc
+00437954	string	FlsFree
+00437964	string	FlsGetValue
+00437978	string	FlsSetValue
+0043798c	string	GetCurrentPackageId
+004379a8	string	InitializeCriticalSectionEx
+004379cc	string	LCMapStringEx
+004379e4	string	LocaleNameToLCID
+00437a08	unicode	ja-JP
+00437a14	unicode	zh-CN
+00437a20	unicode	ko-KR
+00437a2c	unicode	zh-TW
+00438408	string	1#INF
+00438410	string	1#QNAN
+00438418	string	1#SNAN
+00438420	string	1#IND
+00438d98	unicode	de-DE
+00438eb8	unicode	sl-SI
+00438f84	unicode	hi-IN
+00438ffc	unicode	bn-IN
+00439008	unicode	pa-IN
+00439020	unicode	ta-IN
+0043902c	unicode	te-IN
+00439038	unicode	kn-IN
+0043905c	unicode	sa-IN
+004390f0	unicode	de-CH
+00439150	unicode	sr-SP-Latn
+0043918c	unicode	se-SE
+004391e4	unicode	de-AT
+00439214	unicode	sr-SP-Cyrl
+00439284	unicode	fr-CH
+004392c4	unicode	de-LI
+004392f4	unicode	bs-BA-Latn
+0043934c	unicode	sr-BA-Latn
+00439d7c	unicode	bn-in
+00439d88	unicode	bs-ba-latn
+00439dd0	unicode	de-at
+00439ddc	unicode	de-ch
+00439de8	unicode	de-de
+00439df4	unicode	de-li
+00439ffc	unicode	fr-ch
+0043a050	unicode	hi-in
+0043a08c	unicode	id-id
+0043a0e0	unicode	kn-in
+0043a1c8	unicode	pa-in
+0043a240	unicode	sa-in
+0043a264	unicode	se-se
+0043a27c	unicode	sl-si
+0043a30c	unicode	sr-ba-latn
+0043a324	unicode	sr-sp-cyrl
+0043a33c	unicode	sr-sp-latn
+0043a388	unicode	ta-in
+0043a394	unicode	te-in
+0043a4b0	string	log10
+0043a6f8	string	log10
+0043af84	string	floor
+0043afd8	string	_nextafter
+0043b0f8	unicode	CONOUT$
+0043b5fc	string	.rdata
+0043b620	string	.rdata$sxdata
+0043b638	string	.rdata$voltmd
+0043b730	string	.edata
+0043b790	string	.data
+0043d098	TerminatedCString	sfxrar.exe
+0043d36e	TerminatedCString	GetLastError
+0043d37e	TerminatedCString	SetLastError
+0043d38e	TerminatedCString	FormatMessageW
+0043d3a0	TerminatedCString	GetCurrentProcess
+0043d3b4	TerminatedCString	DeviceIoControl
+0043d3c6	TerminatedCString	SetFileTime
+0043d3d4	TerminatedCString	CloseHandle
+0043d3e2	TerminatedCString	CreateDirectoryW
+0043d3f6	TerminatedCString	RemoveDirectoryW
+0043d40a	TerminatedCString	CreateFileW
+0043d418	TerminatedCString	DeleteFileW
+0043d426	TerminatedCString	CreateHardLinkW
+0043d438	TerminatedCString	GetShortPathNameW
+0043d44c	TerminatedCString	GetLongPathNameW
+0043d460	TerminatedCString	MoveFileW
+0043d46c	TerminatedCString	GetFileType
+0043d47a	TerminatedCString	GetStdHandle
+0043d48a	TerminatedCString	WriteFile
+0043d496	TerminatedCString	ReadFile
+0043d4a2	TerminatedCString	FlushFileBuffers
+0043d4b6	TerminatedCString	SetEndOfFile
+0043d4c6	TerminatedCString	SetFilePointer
+0043d4d8	TerminatedCString	SetFileAttributesW
+0043d4ee	TerminatedCString	GetFileAttributesW
+0043d504	TerminatedCString	FindClose
+0043d510	TerminatedCString	FindFirstFileW
+0043d522	TerminatedCString	FindNextFileW
+0043d532	TerminatedCString	InterlockedDecrement
+0043d54a	TerminatedCString	GetVersionExW
+0043d55a	TerminatedCString	GetCurrentDirectoryW
+0043d572	TerminatedCString	GetFullPathNameW
+0043d586	TerminatedCString	FoldStringW
+0043d594	TerminatedCString	GetModuleFileNameW
+0043d5aa	TerminatedCString	GetModuleHandleW
+0043d5be	TerminatedCString	FindResourceW
+0043d5ce	TerminatedCString	FreeLibrary
+0043d5dc	TerminatedCString	GetProcAddress
+0043d5ee	TerminatedCString	GetCurrentProcessId
+0043d604	TerminatedCString	ExitProcess
+0043d612	TerminatedCString	SetThreadExecutionState
+0043d62c	TerminatedCString	Sleep
+0043d634	TerminatedCString	LoadLibraryW
+0043d644	TerminatedCString	GetSystemDirectoryW
+0043d65a	TerminatedCString	CompareStringW
+0043d66c	TerminatedCString	AllocConsole
+0043d67c	TerminatedCString	FreeConsole
+0043d68a	TerminatedCString	AttachConsole
+0043d69a	TerminatedCString	WriteConsoleW
+0043d6aa	TerminatedCString	GetProcessAffinityMask
+0043d6c4	TerminatedCString	CreateThread
+0043d6d4	TerminatedCString	SetThreadPriority
+0043d6e8	TerminatedCString	InitializeCriticalSection
+0043d704	TerminatedCString	EnterCriticalSection
+0043d71c	TerminatedCString	LeaveCriticalSection
+0043d734	TerminatedCString	DeleteCriticalSection
+0043d74c	TerminatedCString	SetEvent
+0043d758	TerminatedCString	ResetEvent
+0043d766	TerminatedCString	ReleaseSemaphore
+0043d77a	TerminatedCString	WaitForSingleObject
+0043d790	TerminatedCString	CreateEventW
+0043d7a0	TerminatedCString	CreateSemaphoreW
+0043d7b4	TerminatedCString	GetSystemTime
+0043d7c4	TerminatedCString	SystemTimeToTzSpecificLocalTime
+0043d7e6	TerminatedCString	TzSpecificLocalTimeToSystemTime
+0043d808	TerminatedCString	SystemTimeToFileTime
+0043d820	TerminatedCString	FileTimeToLocalFileTime
+0043d83a	TerminatedCString	LocalFileTimeToFileTime
+0043d854	TerminatedCString	FileTimeToSystemTime
+0043d86c	TerminatedCString	GetCPInfo
+0043d878	TerminatedCString	IsDBCSLeadByte
+0043d88a	TerminatedCString	MultiByteToWideChar
+0043d8a0	TerminatedCString	WideCharToMultiByte
+0043d8b6	TerminatedCString	GlobalAlloc
+0043d8c4	TerminatedCString	LockResource
+0043d8d4	TerminatedCString	GlobalLock
+0043d8e2	TerminatedCString	GlobalUnlock
+0043d8f2	TerminatedCString	GlobalFree
+0043d900	TerminatedCString	LoadResource
+0043d910	TerminatedCString	SizeofResource
+0043d922	TerminatedCString	SetCurrentDirectoryW
+0043d93a	TerminatedCString	GetExitCodeProcess
+0043d950	TerminatedCString	GetLocalTime
+0043d960	TerminatedCString	GetTickCount
+0043d970	TerminatedCString	MapViewOfFile
+0043d980	TerminatedCString	UnmapViewOfFile
+0043d992	TerminatedCString	CreateFileMappingW
+0043d9a8	TerminatedCString	OpenFileMappingW
+0043d9bc	TerminatedCString	GetCommandLineW
+0043d9ce	TerminatedCString	SetEnvironmentVariableW
+0043d9e8	TerminatedCString	ExpandEnvironmentStringsW
+0043da04	TerminatedCString	GetTempPathW
+0043da14	TerminatedCString	MoveFileExW
+0043da22	TerminatedCString	GetLocaleInfoW
+0043da34	TerminatedCString	GetTimeFormatW
+0043da46	TerminatedCString	GetDateFormatW
+0043da58	TerminatedCString	GetNumberFormatW
+0043da6a	TerminatedCString	KERNEL32.dll
+0043da78	TerminatedCString	OLEAUT32.dll
+0043da88	TerminatedCString	GdipAlloc
+0043da94	TerminatedCString	GdipFree
+0043daa0	TerminatedCString	GdipCloneImage
+0043dab2	TerminatedCString	GdipDisposeImage
+0043dac6	TerminatedCString	GdipCreateBitmapFromStream
+0043dae4	TerminatedCString	GdipCreateBitmapFromStreamICM
+0043db04	TerminatedCString	GdipCreateHBITMAPFromBitmap
+0043db22	TerminatedCString	GdiplusStartup
+0043db34	TerminatedCString	GdiplusShutdown
+0043db44	TerminatedCString	gdiplus.dll
+0043db52	TerminatedCString	RaiseException
+0043db64	TerminatedCString	GetSystemInfo
+0043db74	TerminatedCString	VirtualProtect
+0043db86	TerminatedCString	VirtualQuery
+0043db96	TerminatedCString	LoadLibraryExA
+0043dba8	TerminatedCString	IsProcessorFeaturePresent
+0043dbc4	TerminatedCString	IsDebuggerPresent
+0043dbd8	TerminatedCString	UnhandledExceptionFilter
+0043dbf4	TerminatedCString	SetUnhandledExceptionFilter
+0043dc12	TerminatedCString	GetStartupInfoW
+0043dc24	TerminatedCString	QueryPerformanceCounter
+0043dc3e	TerminatedCString	GetCurrentThreadId
+0043dc54	TerminatedCString	GetSystemTimeAsFileTime
+0043dc6e	TerminatedCString	InitializeSListHead
+0043dc84	TerminatedCString	TerminateProcess
+0043dc98	TerminatedCString	LocalFree
+0043dca4	TerminatedCString	RtlUnwind
+0043dcb0	TerminatedCString	EncodePointer
+0043dcc0	TerminatedCString	InitializeCriticalSectionAndSpinCount
+0043dce8	TerminatedCString	TlsAlloc
+0043dcf4	TerminatedCString	TlsGetValue
+0043dd02	TerminatedCString	TlsSetValue
+0043dd10	TerminatedCString	TlsFree
+0043dd1a	TerminatedCString	LoadLibraryExW
+0043dd2c	TerminatedCString	QueryPerformanceFrequency
+0043dd48	TerminatedCString	GetModuleHandleExW
+0043dd5e	TerminatedCString	GetModuleFileNameA
+0043dd74	TerminatedCString	GetACP
+0043dd7e	TerminatedCString	HeapFree
+0043dd8a	TerminatedCString	HeapAlloc
+0043dd96	TerminatedCString	HeapReAlloc
+0043dda4	TerminatedCString	GetStringTypeW
+0043ddb6	TerminatedCString	LCMapStringW
+0043ddc6	TerminatedCString	FindFirstFileExA
+0043ddda	TerminatedCString	FindNextFileA
+0043ddea	TerminatedCString	IsValidCodePage
+0043ddfc	TerminatedCString	GetOEMCP
+0043de08	TerminatedCString	GetCommandLineA
+0043de1a	TerminatedCString	GetEnvironmentStringsW
+0043de34	TerminatedCString	FreeEnvironmentStringsW
+0043de4e	TerminatedCString	GetProcessHeap
+0043de60	TerminatedCString	SetStdHandle
+0043de70	TerminatedCString	HeapSize
+0043de7c	TerminatedCString	GetConsoleCP
+0043de8c	TerminatedCString	GetConsoleMode
+0043de9e	TerminatedCString	SetFilePointerEx
+0043deb2	TerminatedCString	DecodePointer
+0043ebb1	string	abcdefghijklmnopqrstuvwxyz
+0043ebd1	string	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0043edca	string	abcdefghijklmnopqrstuvwxyz
+0043edea	string	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0043ef28	char[16]	.?AW4RAR_EXIT@@
+0043ef40	char[20]	.?AVbad_alloc@std@@
+0043ef5c	char[20]	.?AVexception@std@@
+0043ef78	char[32]	.?AVbad_array_new_length@std@@
+0043efa0	char[20]	.?AV_com_error@@
+0043efbc	char[24]	.?AVbad_exception@std@@
+0043efdc	char[16]	.?AVtype_info@@
+00484980	PascalUnicode	
+00484982	PascalUnicode	
+00484984	PascalUnicode	
+00484986	PascalUnicode	
+00484988	PascalUnicode	Select destination folder
+004849bc	PascalUnicode	Extracting %s
+004849d8	PascalUnicode	Skipping %s
+004849f0	PascalUnicode	Unexpected end of archive
+00484a24	PascalUnicode	The file "%s" header is corrupt
+00484a64	PascalUnicode	Corrupt header is found
+00484a94	PascalUnicode	Main archive header is corrupt
+00484ad2	PascalUnicode	
+00484ad4	PascalUnicode	
+00484ad6	PascalUnicode	
+00484ad8	PascalUnicode	The archive comment header is corrupt
+00484b24	PascalUnicode	The archive comment is corrupt
+00484b64	PascalUnicode	Not enough memory
+00484b88	PascalUnicode	Unknown method in %s
+00484bb2	PascalUnicode	Cannot open %s
+00484bd0	PascalUnicode	
+00484bd2	PascalUnicode	
+00484bd4	PascalUnicode	
+00484bd6	PascalUnicode	
+00484bd8	PascalUnicode	
+00484bda	PascalUnicode	Cannot create %s
+00484bfc	PascalUnicode	Cannot create folder %s
+00484c2c	PascalUnicode	Checksum error in the encrypted file %s. Corrupt file or wrong password.
+00484cbe	PascalUnicode	Checksum error in %s
+00484ce8	PascalUnicode	Packed data checksum error in %s
+00484d2a	PascalUnicode	
+00484d2c	PascalUnicode	
+00484d2e	PascalUnicode	
+00484d30	PascalUnicode	
+00484d32	PascalUnicode	
+00484d34	PascalUnicode	
+00484d36	PascalUnicode	Write error in the file %s
+00484d6c	PascalUnicode	Read error in the file %s
+00484da0	PascalUnicode	File close error
+00484dc2	PascalUnicode	The required volume is absent
+00484dfe	PascalUnicode	
+00484e00	PascalUnicode	
+00484e02	PascalUnicode	
+00484e04	PascalUnicode	
+00484e06	PascalUnicode	
+00484e08	PascalUnicode	The archive is either in unknown format or damaged
+00484e6e	PascalUnicode	Extracting from %s
+00484e94	PascalUnicode	Next volume
+00484eac	PascalUnicode	The archive header is corrupt
+00484ee8	PascalUnicode	Close
+00484ef4	PascalUnicode	
+00484ef6	PascalUnicode	
+00484ef8	PascalUnicode	
+00484efa	PascalUnicode	
+00484efc	PascalUnicode	
+00484efe	PascalUnicode	Error
+00484f0a	PascalUnicode	Errors encountered while performing the operation\nLook at the information window for more details
+00484fce	PascalUnicode	bytes
+00484fda	PascalUnicode	modified on
+00484ff2	PascalUnicode	folder is not accessible
+00485024	PascalUnicode	
+00485026	PascalUnicode	
+00485028	PascalUnicode	
+0048502a	PascalUnicode	
+0048502c	PascalUnicode	
+00485030	PascalUnicode	Some files could not be created.
+00485072	PascalUnicode	You can try to repeat the installation after closing other applications and restarting Windows.
+00485132	PascalUnicode	Some installation files are corrupt.\nPlease download a fresh copy and retry the installation
+004851ec	PascalUnicode	All files
+00485200	PascalUnicode	
+00485202	PascalUnicode	
+00485204	PascalUnicode	
+00485206	PascalUnicode	
+00485208	PascalUnicode	
+0048520a	PascalUnicode	
+0048520c	PascalUnicode	<ul><li>Press <b>Install</b> button to start extraction.</li><br><br>
+00485298	PascalUnicode	<ul><li>Press <b>Extract</b> button to start extraction.</li><br><br>
+00485324	PascalUnicode	<li>Use <b>Browse</b> button to select the destination
+00485392	PascalUnicode	folder from the folders tree. It can be also entered
+004853fc	PascalUnicode	manually.</li><br><br>
+0048542a	PascalUnicode	<li>If the destination folder does not exist, it will be
+0048549c	PascalUnicode	created automatically before extraction.</li></ul>
+00485502	PascalUnicode	
+00485504	PascalUnicode	
+00485506	PascalUnicode	
+00485508	PascalUnicode	The archive is corrupt
+00485536	PascalUnicode	
+00485538	PascalUnicode	
+0048553a	PascalUnicode	
+0048553c	PascalUnicode	
+0048553e	PascalUnicode	Extracting files to %s folder
+0048557a	PascalUnicode	Extracting files to temporary folder
+004855c4	PascalUnicode	
+004855c6	PascalUnicode	
+004855c8	PascalUnicode	
+004855ca	PascalUnicode	Extract
+004855da	PascalUnicode	Extraction progress
+00485604	PascalUnicode	
+00485606	PascalUnicode	
+00485608	PascalUnicode	
+0048560a	PascalUnicode	Total path and file name length must not exceed %d characters
+00485686	PascalUnicode	
+00485688	PascalUnicode	
+0048568a	PascalUnicode	
+0048568c	PascalUnicode	
+0048568e	PascalUnicode	Unknown encryption method in %s
+004856ce	PascalUnicode	The specified password is incorrect.
+00485718	PascalUnicode	Incorrect password for %s
+0048574c	PascalUnicode	
+0048574e	PascalUnicode	
+00485750	PascalUnicode	
+00485752	PascalUnicode	
+00485754	PascalUnicode	
+00485758	PascalUnicode	
+0048575a	PascalUnicode	
+0048575c	PascalUnicode	Cannot copy %s to %s.
+00485788	PascalUnicode	
+0048578a	PascalUnicode	
+0048578c	PascalUnicode	
+0048578e	PascalUnicode	
+00485790	PascalUnicode	
+00485792	PascalUnicode	
+00485794	PascalUnicode	
+00485796	PascalUnicode	
+00485798	PascalUnicode	
+0048579a	PascalUnicode	Cannot create symbolic link %s
+004857d8	PascalUnicode	Cannot create hard link %s
+0048580e	PascalUnicode	You need to unpack the link target first
+00485860	PascalUnicode	
+00485864	PascalUnicode	
+00485866	PascalUnicode	You may need to run this self-extracting archive as administrator
+004858ea	PascalUnicode	
+004858ec	PascalUnicode	
+004858ee	PascalUnicode	
+004858f0	PascalUnicode	
+004858f2	PascalUnicode	Pause
+004858fe	PascalUnicode	Continue
+00485910	PascalUnicode	
+00485912	PascalUnicode	
+00485914	PascalUnicode	
+00485916	PascalUnicode	
+00485918	PascalUnicode	
+0048591a	PascalUnicode	
+0048591c	PascalUnicode	
+0048591e	PascalUnicode	
+00485920	PascalUnicode	Security warning
+00485942	PascalUnicode	Please remove %s from folder %s. It is unsecure to run %s until it is done.
+004859da	PascalUnicode	
+004859dc	PascalUnicode	
+004859de	PascalUnicode	
+004859e0	PascalUnicode	
+004859e2	PascalUnicode	
+004859e4	PascalUnicode	
+004859e6	PascalUnicode	
+004859e8	PascalUnicode	
+004859ea	PascalUnicode	
+004859ec	PascalUnicode	
+004859ee	PascalUnicode	
+004859f0	PascalUnicode	
+004859f2	PascalUnicode	
+004859f4	PascalUnicode	
+ffdff1ac	uchar[36]	
+ffdffc00	wchar16[261]	

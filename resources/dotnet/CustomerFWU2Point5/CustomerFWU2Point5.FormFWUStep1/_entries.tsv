@@ -1,0 +1,196 @@
+name	type	value
+$this.AutoScaleDimensions	System.Drawing.SizeF	<System.Drawing.SizeF 164 bytes -> $this.AutoScaleDimensions.serialized.bin>
+$this.BackgroundImageLayout	System.Windows.Forms.ImageLayout	<System.Windows.Forms.ImageLayout 171 bytes -> $this.BackgroundImageLayout.serialized.bin>
+$this.ClientSize	System.Drawing.Size	<System.Drawing.Size 163 bytes -> $this.ClientSize.serialized.bin>
+$this.Icon	System.Drawing.Icon	<System.Drawing.Icon -> $this.Icon.png>
+$this.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> $this.ImeMode.serialized.bin>
+$this.StartPosition	System.Windows.Forms.FormStartPosition	<System.Windows.Forms.FormStartPosition 177 bytes -> $this.StartPosition.serialized.bin>
+$this.Text	ResourceTypeCode.String	Form1
+>>$this.Name	ResourceTypeCode.String	FormFWUStep1
+>>$this.Type	ResourceTypeCode.String	System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerCheckFlashFWVer.Name	ResourceTypeCode.String	backgroundWorkerCheckFlashFWVer
+>>backgroundWorkerCheckFlashFWVer.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerCheckVer.Name	ResourceTypeCode.String	backgroundWorkerCheckVer
+>>backgroundWorkerCheckVer.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerCloseRestartDialog.Name	ResourceTypeCode.String	backgroundWorkerCloseRestartDialog
+>>backgroundWorkerCloseRestartDialog.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerEraseFlash.Name	ResourceTypeCode.String	backgroundWorkerEraseFlash
+>>backgroundWorkerEraseFlash.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerGetRegionInfor.Name	ResourceTypeCode.String	backgroundWorkerGetRegionInfor
+>>backgroundWorkerGetRegionInfor.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerNordicENTERBL.Name	ResourceTypeCode.String	backgroundWorkerNordicENTERBL
+>>backgroundWorkerNordicENTERBL.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerNordicProgram.Name	ResourceTypeCode.String	backgroundWorkerNordicProgram
+>>backgroundWorkerNordicProgram.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerProcessFWData.Name	ResourceTypeCode.String	backgroundWorkerProcessFWData
+>>backgroundWorkerProcessFWData.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerProcessFlashFW.Name	ResourceTypeCode.String	backgroundWorkerProcessFlashFW
+>>backgroundWorkerProcessFlashFW.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerProgramFW.Name	ResourceTypeCode.String	backgroundWorkerProgramFW
+>>backgroundWorkerProgramFW.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerProgramSTMFlashFW.Name	ResourceTypeCode.String	backgroundWorkerProgramSTMFlashFW
+>>backgroundWorkerProgramSTMFlashFW.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerSetFlashRegionIDList.Name	ResourceTypeCode.String	backgroundWorkerSetFlashRegionIDList
+>>backgroundWorkerSetFlashRegionIDList.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerVerify.Name	ResourceTypeCode.String	backgroundWorkerVerify
+>>backgroundWorkerVerify.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkerVerifyNordicFW.Name	ResourceTypeCode.String	backgroundWorkerVerifyNordicFW
+>>backgroundWorkerVerifyNordicFW.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>backgroundWorkercheckbattery.Name	ResourceTypeCode.String	backgroundWorkercheckbattery
+>>backgroundWorkercheckbattery.Type	ResourceTypeCode.String	System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>buttonCancel.Name	ResourceTypeCode.String	buttonCancel
+>>buttonCancel.Parent	ResourceTypeCode.String	$this
+>>buttonCancel.Type	ResourceTypeCode.String	CustomerFirmwareUpdater.MyButton, CustomerFWU2Point5, Version=1.0.2.19835, Culture=neutral, PublicKeyToken=null
+>>buttonCancel.ZOrder	ResourceTypeCode.String	6
+>>buttonUpdate.Name	ResourceTypeCode.String	buttonUpdate
+>>buttonUpdate.Parent	ResourceTypeCode.String	$this
+>>buttonUpdate.Type	ResourceTypeCode.String	CustomerFirmwareUpdater.MyButton, CustomerFWU2Point5, Version=1.0.2.19835, Culture=neutral, PublicKeyToken=null
+>>buttonUpdate.ZOrder	ResourceTypeCode.String	5
+>>labelCurFWver.Name	ResourceTypeCode.String	labelCurFWver
+>>labelCurFWver.Parent	ResourceTypeCode.String	$this
+>>labelCurFWver.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelCurFWver.ZOrder	ResourceTypeCode.String	4
+>>labelHeader.Name	ResourceTypeCode.String	labelHeader
+>>labelHeader.Parent	ResourceTypeCode.String	$this
+>>labelHeader.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelHeader.ZOrder	ResourceTypeCode.String	12
+>>labelPromptMessage.Name	ResourceTypeCode.String	labelPromptMessage
+>>labelPromptMessage.Parent	ResourceTypeCode.String	$this
+>>labelPromptMessage.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelPromptMessage.ZOrder	ResourceTypeCode.String	8
+>>labelUpdateInfor.Name	ResourceTypeCode.String	labelUpdateInfor
+>>labelUpdateInfor.Parent	ResourceTypeCode.String	$this
+>>labelUpdateInfor.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelUpdateInfor.ZOrder	ResourceTypeCode.String	10
+>>labelUpdateprogress.Name	ResourceTypeCode.String	labelUpdateprogress
+>>labelUpdateprogress.Parent	ResourceTypeCode.String	$this
+>>labelUpdateprogress.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelUpdateprogress.ZOrder	ResourceTypeCode.String	9
+>>labelkeepholdprompt.Name	ResourceTypeCode.String	labelkeepholdprompt
+>>labelkeepholdprompt.Parent	ResourceTypeCode.String	$this
+>>labelkeepholdprompt.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelkeepholdprompt.ZOrder	ResourceTypeCode.String	1
+>>labelpluginDevice.Name	ResourceTypeCode.String	labelpluginDevice
+>>labelpluginDevice.Parent	ResourceTypeCode.String	$this
+>>labelpluginDevice.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelpluginDevice.ZOrder	ResourceTypeCode.String	11
+>>labelpressandholdpwrbtn.Name	ResourceTypeCode.String	labelpressandholdpwrbtn
+>>labelpressandholdpwrbtn.Parent	ResourceTypeCode.String	$this
+>>labelpressandholdpwrbtn.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelpressandholdpwrbtn.ZOrder	ResourceTypeCode.String	2
+>>labeltargetver.Name	ResourceTypeCode.String	labeltargetver
+>>labeltargetver.Parent	ResourceTypeCode.String	$this
+>>labeltargetver.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labeltargetver.ZOrder	ResourceTypeCode.String	3
+>>labelupdaterstatus.Name	ResourceTypeCode.String	labelupdaterstatus
+>>labelupdaterstatus.Parent	ResourceTypeCode.String	$this
+>>labelupdaterstatus.Type	ResourceTypeCode.String	System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>labelupdaterstatus.ZOrder	ResourceTypeCode.String	0
+>>progressBarupdate.Name	ResourceTypeCode.String	progressBarupdate
+>>progressBarupdate.Parent	ResourceTypeCode.String	$this
+>>progressBarupdate.Type	ResourceTypeCode.String	CustomProgressBar.CustomProgressBar, CustomProgressBar, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null
+>>progressBarupdate.ZOrder	ResourceTypeCode.String	7
+>>timerblentersuccess.Name	ResourceTypeCode.String	timerblentersuccess
+>>timerblentersuccess.Type	ResourceTypeCode.String	System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>timerbllistener.Name	ResourceTypeCode.String	timerbllistener
+>>timerbllistener.Type	ResourceTypeCode.String	System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>timerexitbldetect.Name	ResourceTypeCode.String	timerexitbldetect
+>>timerexitbldetect.Type	ResourceTypeCode.String	System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+buttonCancel.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> buttonCancel.AutoSize.serialized.bin>
+buttonCancel.BackgroundImageLayout	System.Windows.Forms.ImageLayout	<System.Windows.Forms.ImageLayout 171 bytes -> buttonCancel.BackgroundImageLayout.serialized.bin>
+buttonCancel.Enabled	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> buttonCancel.Enabled.serialized.bin>
+buttonCancel.FlatStyle	System.Windows.Forms.FlatStyle	<System.Windows.Forms.FlatStyle 169 bytes -> buttonCancel.FlatStyle.serialized.bin>
+buttonCancel.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> buttonCancel.Font.serialized.bin>
+buttonCancel.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> buttonCancel.ImeMode.serialized.bin>
+buttonCancel.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> buttonCancel.Location.serialized.bin>
+buttonCancel.Margin	System.Windows.Forms.Padding	<System.Windows.Forms.Padding 211 bytes -> buttonCancel.Margin.serialized.bin>
+buttonCancel.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> buttonCancel.Size.serialized.bin>
+buttonCancel.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> buttonCancel.TabIndex.serialized.bin>
+buttonCancel.Text	ResourceTypeCode.String	CANCEL
+buttonUpdate.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> buttonUpdate.AutoSize.serialized.bin>
+buttonUpdate.BackgroundImageLayout	System.Windows.Forms.ImageLayout	<System.Windows.Forms.ImageLayout 171 bytes -> buttonUpdate.BackgroundImageLayout.serialized.bin>
+buttonUpdate.Enabled	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> buttonUpdate.Enabled.serialized.bin>
+buttonUpdate.FlatStyle	System.Windows.Forms.FlatStyle	<System.Windows.Forms.FlatStyle 169 bytes -> buttonUpdate.FlatStyle.serialized.bin>
+buttonUpdate.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> buttonUpdate.Font.serialized.bin>
+buttonUpdate.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> buttonUpdate.ImeMode.serialized.bin>
+buttonUpdate.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> buttonUpdate.Location.serialized.bin>
+buttonUpdate.Margin	System.Windows.Forms.Padding	<System.Windows.Forms.Padding 211 bytes -> buttonUpdate.Margin.serialized.bin>
+buttonUpdate.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> buttonUpdate.Size.serialized.bin>
+buttonUpdate.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> buttonUpdate.TabIndex.serialized.bin>
+buttonUpdate.Text	ResourceTypeCode.String	UPDATE
+labelCurFWver.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelCurFWver.AutoSize.serialized.bin>
+labelCurFWver.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelCurFWver.Font.serialized.bin>
+labelCurFWver.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelCurFWver.ImeMode.serialized.bin>
+labelCurFWver.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelCurFWver.Location.serialized.bin>
+labelCurFWver.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelCurFWver.Size.serialized.bin>
+labelCurFWver.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelCurFWver.TabIndex.serialized.bin>
+labelCurFWver.Text	ResourceTypeCode.String	Device Version:
+labelCurFWver.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelCurFWver.Visible.serialized.bin>
+labelHeader.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelHeader.AutoSize.serialized.bin>
+labelHeader.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelHeader.Font.serialized.bin>
+labelHeader.ImageKey	ResourceTypeCode.String	(none)
+labelHeader.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelHeader.ImeMode.serialized.bin>
+labelHeader.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelHeader.Location.serialized.bin>
+labelHeader.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelHeader.Size.serialized.bin>
+labelHeader.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelHeader.TabIndex.serialized.bin>
+labelHeader.Text	ResourceTypeCode.String	RAZER MANO'WAR FIRMWARE UPDATER
+labelPromptMessage.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelPromptMessage.Font.serialized.bin>
+labelPromptMessage.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelPromptMessage.ImeMode.serialized.bin>
+labelPromptMessage.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelPromptMessage.Location.serialized.bin>
+labelPromptMessage.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelPromptMessage.Size.serialized.bin>
+labelPromptMessage.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelPromptMessage.TabIndex.serialized.bin>
+labelPromptMessage.TextAlign	System.Drawing.ContentAlignment	<System.Drawing.ContentAlignment 164 bytes -> labelPromptMessage.TextAlign.serialized.bin>
+labelPromptMessage.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelPromptMessage.Visible.serialized.bin>
+labelUpdateInfor.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelUpdateInfor.Font.serialized.bin>
+labelUpdateInfor.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelUpdateInfor.ImeMode.serialized.bin>
+labelUpdateInfor.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelUpdateInfor.Location.serialized.bin>
+labelUpdateInfor.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelUpdateInfor.Size.serialized.bin>
+labelUpdateInfor.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelUpdateInfor.TabIndex.serialized.bin>
+labelUpdateInfor.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelUpdateInfor.Visible.serialized.bin>
+labelUpdateprogress.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelUpdateprogress.Font.serialized.bin>
+labelUpdateprogress.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelUpdateprogress.ImeMode.serialized.bin>
+labelUpdateprogress.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelUpdateprogress.Location.serialized.bin>
+labelUpdateprogress.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelUpdateprogress.Size.serialized.bin>
+labelUpdateprogress.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelUpdateprogress.TabIndex.serialized.bin>
+labelUpdateprogress.Text	ResourceTypeCode.String	0%
+labelUpdateprogress.TextAlign	System.Drawing.ContentAlignment	<System.Drawing.ContentAlignment 164 bytes -> labelUpdateprogress.TextAlign.serialized.bin>
+labelUpdateprogress.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelUpdateprogress.Visible.serialized.bin>
+labelkeepholdprompt.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelkeepholdprompt.Font.serialized.bin>
+labelkeepholdprompt.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelkeepholdprompt.ImeMode.serialized.bin>
+labelkeepholdprompt.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelkeepholdprompt.Location.serialized.bin>
+labelkeepholdprompt.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelkeepholdprompt.Size.serialized.bin>
+labelkeepholdprompt.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelkeepholdprompt.TabIndex.serialized.bin>
+labelkeepholdprompt.Text	ResourceTypeCode.String	Keep holding the power button until the update has been completed.
+labelkeepholdprompt.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelkeepholdprompt.Visible.serialized.bin>
+labelpluginDevice.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelpluginDevice.Font.serialized.bin>
+labelpluginDevice.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelpluginDevice.ImeMode.serialized.bin>
+labelpluginDevice.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelpluginDevice.Location.serialized.bin>
+labelpluginDevice.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelpluginDevice.Size.serialized.bin>
+labelpluginDevice.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelpluginDevice.TabIndex.serialized.bin>
+labelpluginDevice.TextAlign	System.Drawing.ContentAlignment	<System.Drawing.ContentAlignment 164 bytes -> labelpluginDevice.TextAlign.serialized.bin>
+labelpressandholdpwrbtn.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelpressandholdpwrbtn.Font.serialized.bin>
+labelpressandholdpwrbtn.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelpressandholdpwrbtn.ImeMode.serialized.bin>
+labelpressandholdpwrbtn.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelpressandholdpwrbtn.Location.serialized.bin>
+labelpressandholdpwrbtn.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelpressandholdpwrbtn.Size.serialized.bin>
+labelpressandholdpwrbtn.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelpressandholdpwrbtn.TabIndex.serialized.bin>
+labelpressandholdpwrbtn.Text	ResourceTypeCode.String	Press and hold the power button on the speaker and then press the UPDATE button below. 
+labelpressandholdpwrbtn.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labelpressandholdpwrbtn.Visible.serialized.bin>
+labeltargetver.AutoSize	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labeltargetver.AutoSize.serialized.bin>
+labeltargetver.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labeltargetver.Font.serialized.bin>
+labeltargetver.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labeltargetver.ImeMode.serialized.bin>
+labeltargetver.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labeltargetver.Location.serialized.bin>
+labeltargetver.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labeltargetver.Size.serialized.bin>
+labeltargetver.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labeltargetver.TabIndex.serialized.bin>
+labeltargetver.Text	ResourceTypeCode.String	Latest Version:
+labeltargetver.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> labeltargetver.Visible.serialized.bin>
+labelupdaterstatus.Font	System.Drawing.Font	<System.Drawing.Font 362 bytes -> labelupdaterstatus.Font.serialized.bin>
+labelupdaterstatus.ImeMode	System.Windows.Forms.ImeMode	<System.Windows.Forms.ImeMode 167 bytes -> labelupdaterstatus.ImeMode.serialized.bin>
+labelupdaterstatus.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> labelupdaterstatus.Location.serialized.bin>
+labelupdaterstatus.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> labelupdaterstatus.Size.serialized.bin>
+labelupdaterstatus.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> labelupdaterstatus.TabIndex.serialized.bin>
+labelupdaterstatus.TextAlign	System.Drawing.ContentAlignment	<System.Drawing.ContentAlignment 164 bytes -> labelupdaterstatus.TextAlign.serialized.bin>
+progressBarupdate.Location	System.Drawing.Point	<System.Drawing.Point 155 bytes -> progressBarupdate.Location.serialized.bin>
+progressBarupdate.Margin	System.Windows.Forms.Padding	<System.Windows.Forms.Padding 211 bytes -> progressBarupdate.Margin.serialized.bin>
+progressBarupdate.Size	System.Drawing.Size	<System.Drawing.Size 163 bytes -> progressBarupdate.Size.serialized.bin>
+progressBarupdate.TabIndex	ResourceTypeCode.Int32	<ResourceTypeCode.Int32 4 bytes -> progressBarupdate.TabIndex.serialized.bin>
+progressBarupdate.Visible	ResourceTypeCode.Boolean	<ResourceTypeCode.Boolean 1 bytes -> progressBarupdate.Visible.serialized.bin>

@@ -1,0 +1,84 @@
+name	type	value
+BLfailretry	ResourceTypeCode.String	Вход в режим загрузчика не выполнен, перезагрузите систему и повторите попытку.
+Done	ResourceTypeCode.String	ГОТОВО
+NoPCPowerOff	ResourceTypeCode.String	Не выключайте питание системы.
+NotNeedUpdateRequired	ResourceTypeCode.String	Обновление не требуется
+Nounplug	ResourceTypeCode.String	Не выключайте питание компьютера и не отсоединяйте устройства.
+RaijuNote	ResourceTypeCode.String	Убедитесь, что USB-кабель НЕ подключен к какой-либо системе.
+Raionguidemessage	ResourceTypeCode.String	При необходимости эта утилита выполнит обновление прошивки контроллера Razer Raion.
+Title	ResourceTypeCode.String	ПРОГРАММА ОБНОВЛЕНИЯ ПРОШИВКИ RAZER {0}
+TitleBladeKB	ResourceTypeCode.String	ПРОГРАММА ОБНОВЛЕНИЯ ПРОШИВКИ КЛАВИАТУРЫ RAZER {0}
+anupdaterequired	ResourceTypeCode.String	Требуется выполнить обновление.
+atroxconncable	ResourceTypeCode.String	Подключите кабель к аркадному контроллеру Razer Atrox.
+atroxnote	ResourceTypeCode.String	Убедитесь, что аркадный контроллер Atrox НЕ подключен к какой-либо системе.
+atroxplugin	ResourceTypeCode.String	Подключите разъем аркадного контроллера Razer Atrox к USB-порту своего компьютера.
+atroxpressbtn	ResourceTypeCode.String	Нажмите и удерживайте кнопки B и RB.
+back	ResourceTypeCode.String	НАЗАД
+blade15c2message	ResourceTypeCode.String	При необходимости эта утилита выполнит обновление прошивки клавиатуры Razer {0} (модель {1}).
+blade15mid2019message	ResourceTypeCode.String	При необходимости эта утилита выполнит обновление прошивки клавиатуры Razer Blade 15 Mid 2019-Advanced (модель RZ09-0301).
+blade2020message	ResourceTypeCode.String	Эта утилита обновит (при необходимости) прошивку клавиатуры вашего устройства:\r\n●    Razer {0} — модель {1}
+bladedetect	ResourceTypeCode.String	Обнаружена клавиатура Razer Blade.
+bladekbdetect	ResourceTypeCode.String	Обнаружена клавиатура Razer {0}.
+bladekbnotdetect	ResourceTypeCode.String	Не удалось обнаружить Razer {0}.
+bladekbupdatefail	ResourceTypeCode.String	Сбой обновления прошивки Razer {0}.\r\nПовторить?
+bladekbupdatetonewest	ResourceTypeCode.String	Прошивка клавиатуры системы обновлена до последней версии.
+bladestealthdetect	ResourceTypeCode.String	Обнаружена клавиатура Razer Blade Stealth.
+cancel	ResourceTypeCode.String	ОТМЕНА
+checkverfail	ResourceTypeCode.String	Ошибка получения версии прошивки. \r\nНажмите кнопку "Повтор".
+close	ResourceTypeCode.String	ЗАКРЫТЬ
+closeallapp	ResourceTypeCode.String	Кроме того, закройте остальные приложения перед продолжением обновления.
+closesynapse	ResourceTypeCode.String	Закройте Synapse до запуска обновления.
+closesynapseandotherapp	ResourceTypeCode.String	Не удается установить обновление, потому что Synapse или какое-то другое приложение еще открыто.\r\n                                                     \r\nПеред перезапуском обновления Synapse убедитесь, что все другие приложения закрыты.
+congratulations	ResourceTypeCode.String	ПОЗДРАВЛЯЕМ!
+connbytypec	ResourceTypeCode.String	Подключите Razer Raptor 27 к порту USB-C своего компьютера.
+conndetachablecable	ResourceTypeCode.String	Подключите кабель к контроллеру Razer Panthera.
+connectmouse	ResourceTypeCode.String	Во время обновления прошивки мышь не реагирует на команды. Для управления системой рекомендуется подключить вторую мышь перед началом процедуры обновления.
+connectpoweroutlet	ResourceTypeCode.String	Убедитесь, что ноутбук подключен к сетевой розетке.
+devhavelatestfw	ResourceTypeCode.String	У вас уже установлена последняя версия прошивки.
+devicever	ResourceTypeCode.String	Версия устройства:
+devicewithnewver	ResourceTypeCode.String	Поздравляем! Для вашего устройства установлена последняя версия прошивки.
+docknoupdate	ResourceTypeCode.String	Обновление не требуется
+enterbootloadering	ResourceTypeCode.String	Открытие окна загрузки. Пожалуйста, подождите...
+eraseflash	ResourceTypeCode.String	Очистка флэш-памяти…
+exitsynapse	ResourceTypeCode.String	Перед продолжением закройте все приложения в Razer Central. Щелкните правой кнопкой мыши значок Razer на панели задач и выберите «Закрыть все приложения».
+foundmodelnohere	ResourceTypeCode.String	Номер модели вашего устройства (например, {0}) можно найти здесь:
+guidemessage	ResourceTypeCode.String	Эта утилита проверит наличие обновлений прошивки и при необходимости обновит Razer {0}.
+keepholdingprompt	ResourceTypeCode.String	Продолжайте удерживать кнопку питания до завершения обновления.
+laptoppower	ResourceTypeCode.String	Если используется ноутбук, убедитесь, что он подключен к сетевой розетке.
+lowbattery	ResourceTypeCode.String	Низкий заряд батареи. Подключите адаптер питания.
+newver	ResourceTypeCode.String	Последняя версия:
+next	ResourceTypeCode.String	ДАЛЕЕ
+nodevdetect	ResourceTypeCode.String	Продукт не обнаружен.
+noupdaterequired	ResourceTypeCode.String	Установлена прошивка последней версии, обновление не требуется.
+pantheranote	ResourceTypeCode.String	Убедитесь, что джойстик Panthera НЕ подключен к какой-либо системе.
+pantherapluginpc	ResourceTypeCode.String	Подключите Razer Panthera к USB-порту компьютера.
+pantherapressbtn1	ResourceTypeCode.String	Нажмите и удерживайте
+pantherapressbtn2	ResourceTypeCode.String	и кнопки R1.
+plugandholdpwrbtn	ResourceTypeCode.String	Нажмите и удерживайте кнопку питания на динамике, а затем нажмите кнопку ОБНОВИТЬ ниже.
+pluginmousedock	ResourceTypeCode.String	Подключите Razer {0} к компьютеру.
+pluginspeaker	ResourceTypeCode.String	Подключите динамик к компьютеру с помощью USB-кабеля.
+plugpoweroutletnote	ResourceTypeCode.String	Убедитесь, что ноутбук подключен к сетевой розетке.
+plugusbfiber	ResourceTypeCode.String	Подключите съемный оплетенный волоконно-оптический кабель (разъем Micro USB) к контроллеру Razer {0}.
+plugusbtoPC	ResourceTypeCode.String	Подключите конец кабеля Razer {0} с USB-разъемом к порту USB компьютера.
+pressbtn	ResourceTypeCode.String	Нажмите и удерживайте кнопку ВВЕРХ и кнопку действия Х.
+pressbtnWolverine	ResourceTypeCode.String	Нажмите и удерживайте кнопку направления «Вверх» и кнопку A.
+processfwdata	ResourceTypeCode.String	Обработка данных прошивки…
+reconnectdev	ResourceTypeCode.String	Подключите устройство повторно.
+reminder	ResourceTypeCode.String	НАПОМИНАНИЕ
+showmodelno	ResourceTypeCode.String	Показать, как найти номер модели моего устройства Razer
+showmodelnoblade	ResourceTypeCode.String	Показать, как найти номер модели моего Razer {0}
+shutdownrazerapps	ResourceTypeCode.String	В случае продолжения запущенные приложения Razer будут автоматически завершены.
+support	ResourceTypeCode.String	Если вам нужна дополнительная поддержка, напишите нам по адресу support@razerzone.com.
+switchtops4	ResourceTypeCode.String	Включите режим PS4.
+tryagain	ResourceTypeCode.String	Выполните следующие действия и повторите попытку.
+turnondev	ResourceTypeCode.String	Убедитесь, что монитор Razer Raptor 27 включен.
+typecnote	ResourceTypeCode.String	Если в вашем компьютере отсутствует порт USB-C, перед продолжением вам потребуется использовать кабель или переходник USB-C/USB-A.
+update	ResourceTypeCode.String	ОБНОВЛЕНИЕ
+updatebladec3kbonly	ResourceTypeCode.String	Эта программа предназначена только для обновления клавиатуры Razer Blade 15 Mid 2019-Advanced (модель RZ09-0301).
+updatebladekbonly	ResourceTypeCode.String	Эта программа обновления предназначена только для обновления клавиатуры Razer {0}.
+updatefail	ResourceTypeCode.String	Ошибка обновления прошивки. \r\nПодключите устройство повторно и нажмите кнопку "Повтор".
+updatefw	ResourceTypeCode.String	Обновление прошивки…
+updatestep	ResourceTypeCode.String	Подключите устройство к компьютеру.
+updatesuccessful	ResourceTypeCode.String	Обновление выполнено
+verifyfw	ResourceTypeCode.String	Проверка прошивки...
+welcomenote	ResourceTypeCode.String	Обратите внимание:

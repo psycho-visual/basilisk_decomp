@@ -1,0 +1,50 @@
+# kind	address	name	comment
+# --- ARM/Keil C runtime ---
+func	0x200000C0	__main	Keil ARMCC entry: set SP, __scatterload, branch to main
+func	0x20000166	__default_irq_spin	Unused IRQ trap (infinite loop)
+func	0x200001F0	__aeabi_uidiv	unsigned 32-bit divide
+func	0x2000021C	__aeabi_idiv	signed 32-bit divide
+func	0x20000244	__aeabi_uldivmod	unsigned 64-bit divide
+func	0x200002A4	__aeabi_llsr	64-bit logical shift right
+func	0x20000334	__aeabi_llsl	64-bit shift left
+func	0x200002C6	memcpy	__aeabi_memcpy (word-aligned fast path)
+func	0x200002EA	_memset_byte	fill n bytes
+func	0x200002F8	__aeabi_memclr	zero n bytes
+func	0x200002FC	memset	memset(dst, value, n)
+func	0x2000030E	read_u32_le	load 4 bytes little-endian from unaligned pointer
+func	0x20000322	write_u32_le	store 4 bytes little-endian to unaligned pointer
+func	0x20000354	__scatterload	walks Region$$Table at 0x2000F468: RW decompress to 0x04000000, ZI 0x04000604..0x04004A40
+func	0x20000378	__decompress1	Keil RW-data LZ decompressor (ported in tools/keil_scatter.py)
+func	0x2000521C	__scatterload_zeroinit	ZI region clear
+# --- system ---
+func	0x2000248C	SystemInit	VTOR = 0x20000000 (application vector table)
+func	0x200003D0	clock_init	core/bus clocks -> 96 MHz; stores SystemCoreClock
+func	0x2000249C	delay_ms	busy wait n ms, feeds watchdog each ms
+func	0x200024BC	delay_us	SysTick polled delay
+func	0x200051F0	NVIC_SystemReset	AIRCR = 0x05FA0004
+func	0x2000E7D0	wdt_feed	feeds watchdog @0x4000C000 with IRQs masked
+func	0x20007F38	main	firmware main loop
+# --- Razer HID protocol (90-byte feature report) ---
+func	0x2000AD88	periodic_tasks	flag-driven task runner (flags @0x04000D65); bit1 -> razer_cmd_dispatch() and friends
+func	0x2000AE00	razer_cmd_dispatch	verify CRC, dispatch on command_class, recompute CRC, set status
+func	0x20009804	razer_cmd_class00_device	class 0x00: version (0x87), serial (0x82), device mode (0x04 -> bootloader), factory reset (0x0B)...
+func	0x20008814	razer_cmd_class02_keymap	class 0x02: button / key remapping
+func	0x20009B70	razer_cmd_class04_sensor	class 0x04: DPI stages, sensor settings
+func	0x2000AEE8	razer_cmd_class05	class 0x05
+func	0x2000A85C	razer_cmd_class06_storage	class 0x06: on-board storage / profile and macro memory
+func	0x2000AFF8	razer_cmd_class0B	class 0x0B: sensor calibration / lift-off
+func	0x200093E0	razer_cmd_class0F_led	class 0x0F: Chroma lighting effects
+func	0x2000B52C	razer_cmd_classFE	class 0xFE: factory / diagnostic
+func	0x20008BF4	button_action_execute	executes the action bound to a physical button (mouse button, key, DPI step +-100 up to 26000, profile, ...)
+func	0x2000B85C	settings_mark_dirty	schedules persistence of a settings group to flash
+# --- data ---
+report	0x04000CE4	g_razer_report	Razer 90-byte HID feature report buffer (shared by SET/GET_REPORT)
+dword	0x040005D8	SystemCoreClock	core clock in Hz (12 MHz reset value, 96 MHz after clock_init)
+dword	0x04007FFC	g_bootloader_magic	0xAAAAAAAA written here then NVIC_SystemReset() => stay in bootloader (PID 0x110E)
+bytes:18	0x04000040	usb_device_descriptor	USB device descriptor: VID 0x1532 PID 0x0099 bcdDevice 0x0200
+bytes:109	0x04000080	usb_config_descriptor	USB configuration descriptor (4 HID interfaces)
+bytes:4	0x04000200	usb_string0_langid	LANGID 0x0409
+bytes:12	0x04000240	usb_string_manufacturer	"Razer"
+bytes:36	0x04000280	usb_string_product	"Razer Basilisk V3"
+bytes:22	0x040014B2	g_serial_number	serial number (cmd 00/02 set, 00/82 get)
+bytes:16	0x2000F468	Region$$Table	scatter-load region table (2 entries)

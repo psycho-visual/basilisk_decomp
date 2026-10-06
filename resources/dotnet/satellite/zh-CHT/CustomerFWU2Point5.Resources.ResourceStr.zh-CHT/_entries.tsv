@@ -1,0 +1,84 @@
+name	type	value
+BLfailretry	ResourceTypeCode.String	無法進入開機載入程式，請重新啟動系統並再試一次。
+Done	ResourceTypeCode.String	完成
+NoPCPowerOff	ResourceTypeCode.String	請勿將系統關機。
+NotNeedUpdateRequired	ResourceTypeCode.String	不需更新
+Nounplug	ResourceTypeCode.String	請勿關閉電腦電源或移除裝置
+RaijuNote	ResourceTypeCode.String	請確認此 USB 纜線未連接至任何系統。
+Raionguidemessage	ResourceTypeCode.String	此公用程式會視需要更新 Razer Raion 控制器的韌體。
+Title	ResourceTypeCode.String	RAZER {0} 韌體更新程式
+TitleBladeKB	ResourceTypeCode.String	RAZER {0} 鍵盤韌體更新程式
+anupdaterequired	ResourceTypeCode.String	需要更新。
+atroxconncable	ResourceTypeCode.String	將此可拆式纜線連接至 Razer Atrox 大型電玩搖桿控制器。
+atroxnote	ResourceTypeCode.String	請確認此 Atrox 大型電玩搖桿並未連接至任何系統。
+atroxplugin	ResourceTypeCode.String	將 Razer Atrox 大型電玩搖桿的接頭插入你電腦的 USB 連接埠。
+atroxpressbtn	ResourceTypeCode.String	長按 B 與 RB 鍵。
+back	ResourceTypeCode.String	返回
+blade15c2message	ResourceTypeCode.String	此公用程式會視需要更新 Razer {0}（型號 {1}）的鍵盤韌體。
+blade15mid2019message	ResourceTypeCode.String	此公用程式會視需要更新 Razer Blade 15 Mid 2019-Advanced（型號 RZ09-0301）的鍵盤韌體。
+blade2020message	ResourceTypeCode.String	如有需要，此公用程式會更新以下鍵盤韌體︰\r\n●    Razer {0} – 型號：{1}
+bladedetect	ResourceTypeCode.String	偵測到 Razer Blade 鍵盤。
+bladekbdetect	ResourceTypeCode.String	偵測到 Razer {0} 鍵盤。
+bladekbnotdetect	ResourceTypeCode.String	未偵測到 Razer {0}。
+bladekbupdatefail	ResourceTypeCode.String	Razer {0} 更新韌體失敗。\r\n你要重試嗎？
+bladekbupdatetonewest	ResourceTypeCode.String	已將系統的鍵盤更新至最新版本的韌體。
+bladestealthdetect	ResourceTypeCode.String	偵測到 Razer Blade Stealth 鍵盤。
+cancel	ResourceTypeCode.String	取消
+checkverfail	ResourceTypeCode.String	取得韌體版本失敗。 \r\n請按一下「重試」。
+close	ResourceTypeCode.String	關閉
+closeallapp	ResourceTypeCode.String	繼續更新前，請同時關閉所有其他應用程式。
+closesynapse	ResourceTypeCode.String	更新前，請關閉 Synapse。
+closesynapseandotherapp	ResourceTypeCode.String	更新程序無法繼續，因為 Synapse 或某個其他應用程式仍在執行中。\r\n                                                     \r\n再次繼續更新前，請確認 Synapse 及所有其他應用程式皆已關閉。
+congratulations	ResourceTypeCode.String	恭喜！
+connbytypec	ResourceTypeCode.String	將 Razer Raptor 27 接到 PC 的 USB-C 連接埠。
+conndetachablecable	ResourceTypeCode.String	將此可拆式纜線連接至 Razer Panthera 控制器。
+connectmouse	ResourceTypeCode.String	在韌體更新期間，滑鼠將會停止回應。如需維持系統控制，我們建議在更新開始前，先行連接另一滑鼠。
+connectpoweroutlet	ResourceTypeCode.String	請確定已將筆電連接至電源插座。
+devhavelatestfw	ResourceTypeCode.String	你已擁有最新的韌體版本。
+devicever	ResourceTypeCode.String	裝置版本：
+devicewithnewver	ResourceTypeCode.String	您的裝置已更新至最新版本的韌體。
+docknoupdate	ResourceTypeCode.String	不需更新
+enterbootloadering	ResourceTypeCode.String	正進入開機載入程式。請稍等......
+eraseflash	ResourceTypeCode.String	擦除快閃記憶體…
+exitsynapse	ResourceTypeCode.String	繼續進行前，請關閉 Razer Central 底下的所有應用程式。在系統匣的 Razer 圖示上按一下滑鼠右鍵，並選擇「退出所有應用程式」。
+foundmodelnohere	ResourceTypeCode.String	產品型號（例如 {0}）通常標示於此處：
+guidemessage	ResourceTypeCode.String	這個公用程式會檢查韌體，並視需要更新 Razer {0}。
+keepholdingprompt	ResourceTypeCode.String	按住電源鍵，直到更新完成。
+laptoppower	ResourceTypeCode.String	如果你使用筆記型電腦，請確定已連接電源插座。
+lowbattery	ResourceTypeCode.String	電池電量偏低。請插上電源變壓器。
+newver	ResourceTypeCode.String	最新版本：
+next	ResourceTypeCode.String	下一步
+nodevdetect	ResourceTypeCode.String	無法偵測到產品。
+noupdaterequired	ResourceTypeCode.String	您已安裝最新版本的韌體，所以不需更新。
+pantheranote	ResourceTypeCode.String	請確認此 Panthera 未連接至任何系統。
+pantherapluginpc	ResourceTypeCode.String	將 Razer Panthera 的接頭插入您電腦的 USB 連接埠。
+pantherapressbtn1	ResourceTypeCode.String	長按
+pantherapressbtn2	ResourceTypeCode.String	和 R1 按鈕。
+plugandholdpwrbtn	ResourceTypeCode.String	長按喇叭上的電源鍵，然後按下方的更新鍵。
+pluginmousedock	ResourceTypeCode.String	將 Razer {0}插入你的電腦。
+pluginspeaker	ResourceTypeCode.String	使用 USB 纜線將喇叭連接至您的電腦。
+plugpoweroutletnote	ResourceTypeCode.String	請確定已將筆電連接至電源插座。
+plugusbfiber	ResourceTypeCode.String	將可拆卸式編織纜線的 micro USB 接頭插入 Razer {0}。
+plugusbtoPC	ResourceTypeCode.String	將 Razer {0} 的 USB 接頭插入您電腦的 USB 連接埠。
+pressbtn	ResourceTypeCode.String	長按向上鍵和 X 動作鍵。
+pressbtnWolverine	ResourceTypeCode.String	長按向上方向鍵與 A 鍵。
+processfwdata	ResourceTypeCode.String	處理韌體數據…
+reconnectdev	ResourceTypeCode.String	請重新連接裝置！
+reminder	ResourceTypeCode.String	提醒
+showmodelno	ResourceTypeCode.String	告訴我如何找到 Razer 型號
+showmodelnoblade	ResourceTypeCode.String	告訴我如何找到 Razer {0} 的型號
+shutdownrazerapps	ResourceTypeCode.String	如果繼續，我們會自動關閉執行中的 Razer 應用程式。
+support	ResourceTypeCode.String	如需進一步協助，請寄信至 support@razerzone.com。
+switchtops4	ResourceTypeCode.String	將模式切換至 PS4。
+tryagain	ResourceTypeCode.String	請小心遵循這些步驟，然後再試一次
+turnondev	ResourceTypeCode.String	請確定開啟  Razer Raptor 27 的電源。
+typecnote	ResourceTypeCode.String	如果你的 PC 沒有 USB-C 連接埠，你需要使用 USB-C 至 USB-A 轉接線或轉接器，才能繼續使用。
+update	ResourceTypeCode.String	更新
+updatebladec3kbonly	ResourceTypeCode.String	此更新程式只能更新 Razer Blade 15 Mid 2019-Advanced 鍵盤（型號 RZ09-0301）。
+updatebladekbonly	ResourceTypeCode.String	此更新程式僅能用來更新 Razer {0} 鍵盤的韌體。
+updatefail	ResourceTypeCode.String	韌體更新失敗。 \r\n請重新連接裝置並按一下「重試」。
+updatefw	ResourceTypeCode.String	更新韌體中…
+updatestep	ResourceTypeCode.String	將裝置連上您的電腦
+updatesuccessful	ResourceTypeCode.String	更新成功
+verifyfw	ResourceTypeCode.String	韌體驗證中…
+welcomenote	ResourceTypeCode.String	請注意：

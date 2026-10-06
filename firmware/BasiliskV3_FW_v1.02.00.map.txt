@@ -1,0 +1,4 @@
+records: 3944
+load range: 0x20000000-0x2000F648 (63048 bytes)
+start linear address: 0x200000C1
+segment 0x20000000-0x2000F648 len 63048
