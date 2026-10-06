@@ -141,7 +141,10 @@ def lockout_ms(s):
 
 
 def main():
-    ap = argparse.ArgumentParser(description=__doc__.split('\n\n')[0])
+    desc = __doc__.split('\n\n')[0]
+    if getattr(sys, 'frozen', False):   # the .exe has hidapi built in
+        desc = desc.replace('\nNeeds `pip install hidapi`.', '')
+    ap = argparse.ArgumentParser(description=desc)
     ap.add_argument('--list', action='store_true', help="list the mouse's HID interfaces and exit")
     sub = ap.add_subparsers(dest='action')
     s = sub.add_parser('set', help='change the lockout, keeping everything else')
