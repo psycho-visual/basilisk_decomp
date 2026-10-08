@@ -14,6 +14,7 @@ Everything in the repository was produced by these scripts. `decompile.sh` runs 
 | `python/make_buildable.py` | Rewrites ILSpy `.csproj` files: project references between the decompiled assemblies, NuGet for log4net/Newtonsoft.Json, no machine paths |
 | `python/sigs.py` | Lists Authenticode signer CNs of PE files (needs `openssl`) |
 | `python/xref.py` | Quick "which decompiled functions mention X" grep over a listing |
+| `python/basilisk_debounce.py` | Talks to a real mouse: reads (`02/82`) or sets (`02/02`) the button debounce lockout, which the firmware saves to its own flash. Needs `pip install hidapi`, or use the Windows `.exe` that `.github/workflows/basilisk-debounce-exe.yml` builds (download it from the workflow run's artifacts) |
 | `dotnet/resdump` | Dumps a binary `.resources` file (`DeviceUpdater.resources`) to TSV + blobs |
 | `dotnet/asmres` | Extracts manifest resources from an assembly and explodes `.resources` (strings → TSV, images → PNG/ICO) |
 | `dotnet/asmrefs` | Prints assembly references and target framework |

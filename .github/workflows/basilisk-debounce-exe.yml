@@ -1,0 +1,53 @@
+# Builds tools/python/basilisk_debounce.py into a single Windows .exe (no Python install needed) and
+# uploads it as the run's "basilisk_debounce-exe" artifact.
+name: basilisk_debounce.exe
+
+on:
+  push:
+    paths:
+      - tools/python/basilisk_debounce.py
+      - .github/workflows/basilisk-debounce-exe.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PyInstaller and hidapi
+        run: python -m pip install "pyinstaller>=6,<7" hidapi==0.15.0
+
+      - name: Build
+        run: python -m PyInstaller --onefile --console --name basilisk_debounce tools/python/basilisk_debounce.py
+
+      # The runner has no mouse, so this checks that the exe starts, finds its bundled hidapi, and fails cleanly.
+      - name: Smoke test
+        run: |
+          $exe = 'dist\basilisk_debounce.exe'
+          & $exe --help
+          if ($LASTEXITCODE -ne 0) { throw "--help exited $LASTEXITCODE" }
+          & $exe --list
+          if ($LASTEXITCODE -ne 0) { throw "--list exited $LASTEXITCODE" }
+          & $exe
+          if ($LASTEXITCODE -ne 1) { throw "reading without a mouse should exit 1, got $LASTEXITCODE" }
+          & $exe set --lockout 31
+          if ($LASTEXITCODE -ne 2) { throw "an out-of-range lockout should exit 2, got $LASTEXITCODE" }
+          Get-FileHash $exe -Algorithm SHA256 | Format-List
+          exit 0
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: basilisk_debounce-exe
+          path: dist/basilisk_debounce.exe
+          if-no-files-found: error
